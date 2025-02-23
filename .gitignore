@@ -9,5 +9,5 @@ wheels/
 # Virtual environments
 .venv
 
-# mypy
-.mypy_cache/
+# Secrets
+.env
