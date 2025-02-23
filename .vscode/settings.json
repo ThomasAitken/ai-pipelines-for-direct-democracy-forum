@@ -1,0 +1,16 @@
+{
+    // Use Pylance as the language server (which uses Pyright under the hood)
+    "python.languageServer": "Pylance",
+
+    // Pyright / Pylance settings for type checking
+    "python.analysis.typeCheckingMode": "strict",
+
+    // Enable Ruff and optionally point to your config file (e.g., pyproject.toml)
+    "ruff.enable": true,
+
+    // Automatically fix lint issues on save (including Ruff fixes)
+    "editor.codeActionsOnSave": {
+        "source.fixAll.ruff": "always",
+        "source.fixAll": "always"
+    }
+}
