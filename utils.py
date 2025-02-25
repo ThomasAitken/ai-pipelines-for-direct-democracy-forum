@@ -2,16 +2,17 @@ import os
 
 import requests
 from pypdf import PdfReader
+from requests.adapters import HTTPAdapter, Retry
 
 
-def download_text_from_url(url: str) -> str:
+def download_text_from_url(session: requests.Session, url: str) -> str:
     """
     Download and return the text from a URL.
     If it's a PDF, parse it accordingly.
     If it's an HTML page, parse out text.
     """
     try:
-        response = requests.get(url)
+        response = session.get(url)
         response.raise_for_status()
     except Exception as e:
         print(f"Failed to download from {url}. Error: {e}")
@@ -47,3 +48,23 @@ def download_text_from_url(url: str) -> str:
         # If it's HTML, you may want to strip tags, or handle them carefully.
         # For simplicity, let's just return the raw text:
         return response.text
+    
+
+def get_requests_session():
+    # The main motivation for this class was retrying on NameResolutionErrors
+    # This automatically triggers retries for NameResolutionErrors without any config
+    retries = Retry(
+        total=5,
+        backoff_factor=1,
+        status_forcelist=[500, 502, 503, 504],
+        allowed_methods=None,
+        raise_on_redirect=True,
+        raise_on_status=True,
+    )
+    session = requests.Session()
+    session.headers.update(
+        {"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0"}
+    )
+    adapter = HTTPAdapter(max_retries=retries)
+    session.mount("https://", adapter)
+    return session

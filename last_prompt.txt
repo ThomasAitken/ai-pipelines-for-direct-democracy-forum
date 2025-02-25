@@ -1,0 +1,1985 @@
+
+Your task is to fill out a number of fields for a user-curated forum page relating to a bill before the Australian parliament. As I will explain below, some of these fields are argument fields, i.e. an "Argument For" and an "Argument Against" the bill. So let me first give you some information on the guidelines for the argument fields, as this will come in handy for your task:
+
+
+#### Argument Guidelines ####
+
+* How to Formulate a Political Argument *
+
+Steps:
+1. Enumerate your Normative Bases: Clearly state the fundamental principles or values that underpin your argument.
+2. Clarify any further high-level assumptions: Specify any additional overarching assumptions that are essential to your reasoning.
+3. Define any uncommon terms as necessary: Ensure that specialized or uncommon terms are clearly defined to avoid misunderstandings.
+4. Present your argument in simple and precise language: Use clear and concise language. Claims with empirical content should be supported by footnotes linking to reliable sources or annotated as a "Judgment."
+
+
+* Worked Examples *
+The following is an example of an argument for the proposition that the government should grant funding to the Direct Democracy Forum. The argument is structured according to the guidelines above.
+```
+<i>Normative Bases</i><ol><li><a href="/about/normative-bases#ProDemocracy">Pro-Democracy</a></li><li><a href="/about/normative-bases#ProTransparency">Intellectualism</a></li></ol><p>The Direct Democracy Forum requires only modest funding to flourish and expand. $2 million a year would probably be sufficient to support most of the future objectives of the site: not only the maintenance and improvement of the existing forum as it scales, but also the creation of a similar project for each of the states and territories.<span class="footnote-reference" data-footnote-reference="" data-footnote-index="1" data-footnote-id="aq1upuv6w2f" role="doc-noteref" id="fnrefaq1upuv6w2f"><sup><a href="#fnaq1upuv6w2f">[1]</a></sup></span> We submit that this is a small investment with a massive potential benefit to the public at large.</p><p>The primary value of the Direct Democracy Forum is in its promotion of an informed and engaged democratic discourse [<a href="/about/argument-guidelines#Judgment">Judgment</a>]. As long as it is able to attract and keep a strong pool of engaged users, this forum should be able to provide a unique service in producing up-to-date information and analysis on what is actually going on in parliament. The feature of displaying links to other media on each forum should also allow this site to serve as a news distributor and aggregator, thus likely strengthening the broader ecosystem of political discourse. In general, encouraging citizens to engage with politics in terms of concrete policy issues should promote a more intelligent and civil political culture [<a href="/about/argument-guidelines#Judgment">Judgment</a>].</p><p>Among many other secondary benefits we might imagine, one is that this site could become a powerful gauge of public opinion that goes beyond the usual vague polling questions to actually build a map of what people think on a range of concrete policy issues.</p><ol class="footnote-section footnotes" data-footnote-section="" role="doc-endnotes"><li class="footnote-item" data-footnote-item="" data-footnote-index="1" data-footnote-id="aq1upuv6w2f" role="doc-endnote" id="fnaq1upuv6w2f"><span class="footnote-back-link" data-footnote-back-link="" data-footnote-id="aq1upuv6w2f"><sup><strong><a href="#fnrefaq1upuv6w2f">^</a></strong></sup></span><div class="footnote-content" data-footnote-content=""><p>My estimate based on an assumption that I leave my day job and hire a small team. Obviously more would be required to promote the site.</p></div></li></ol>
+```
+
+The following is an example of an argument against the proposition that the government should grant funding to the Direct Democracy Forum. The argument is structured according to the guidelines above.
+```
+<i>Normative Bases</i><ol><li><a href="/about/normative-bases#SameAsOpponent">Same as Opponent</a></li></ol><p>Let's grant that the Direct Democracy Forum is a good idea. Even if so, the forum is better off getting grassroots funding from its users. The forum does not <i>need</i> government funding. It should be able to get by on approximately 0 funding and can prosper with modest funding beyond that. <span class="footnote-reference" data-footnote-reference="" data-footnote-index="1" data-footnote-id="aq1upuv6w2e" role="doc-noteref" id="fnrefaq1upuv6w2e"><sup><a href="#fnaq1upuv6w2e">[1]</a></sup></span> If the forum gains sufficient popularity, one would expect donations to start trickling in. If the forum never reaches this stage, it probably never deserved government outlay either [<a href="/about/argument-guidelines#Judgment">Judgment</a>].</p><p>The other reason is this: while government funding doesn't necessarily imply direct government influence or a corrosion of independence, it inevitably creates some vectors of influence. There will always be the worry that if the forum upsets the current government because of, say, the harsh reception of some of its recent policies, funding may be curtailed [<a href="/about/argument-guidelines#Judgment">Judgment</a>].</p><ol class="footnote-section footnotes" data-footnote-section="" role="doc-endnotes"><li class="footnote-item" data-footnote-item="" data-footnote-index="1" data-footnote-id="aq1upuv6w2e" role="doc-endnote" id="fnaq1upuv6w2e"><span class="footnote-back-link" data-footnote-back-link="" data-footnote-id="aq1upuv6w2e"><sup><strong><a href="#fnrefaq1upuv6w2e">^</a></strong></sup></span><div class="footnote-content" data-footnote-content=""><p>Based on my estimate of ongoing maintenance requiring only a few hours of work per work, and costing a modest amount.</p></div></li></ol>
+```
+
+* What is a Judgment? *
+When composing an argument, it is sometimes necessary to fall back on claims or contentions that loosely fall under the rubric of "Common Sense". These are not assumptions, derivations or direct empirical claims, but simply plausible judgments. Think the sort of assertion you would usually cloak in language like "I would claim" or "It is plausible to believe that" - something that rings true to you but which you would be hard-pressed to back up with a specific link or citation. As you can see in the Worked Example arguments above, in such cases you should avoid the usual hedging phrases and just make your assertion, plus an extra appendage like so: "[Judgment]". If you do not do this, then an admin will probably come by later and add a "Citation Needed" footnote to this same sentence, which will look worse!
+
+It is also worth considering that you may not need to use a Judgment at all. The more judgments you make, the weaker your argument will be, relative to one that relies on more verifiable claims. So if you can substitute a judgment for a more directly verifiable claim, it is usually a good idea to do so.
+
+
+
+
+#### Normative Bases Digest ####
+
+* What is a "Normative Basis"? *
+A normative basis serves as an ethical or legal cornerstone for political arguments. The set of bases that have been curated is designed to achieve comprehensive coverage of possible political arguments with minimal conceptual overlap.
+
+* The Set of Normative Bases: *
+    Meta:
+        - Same as Opponent: Utilizing the same values as the opposing argument to challenge its reasoning or evidence.
+        - Legal Principle: Basing arguments on legal foundations, such as constitutional provisions or international laws.
+
+    Ethical Foundations:
+        - Utilitarian Ground Truth: Focusing on actions that maximize overall well-being or minimize harm. (Only to be used in clear-cut cases.)
+        - Egalitarianism: Advocating for equality in critical societal aspects like income, wealth, and access to services.
+        - Propertarianism: Emphasizing the protection of existing property rights and private wealth.
+        - Non-Discrimination: Opposing unequal treatment based on characteristics such as race, gender, or disability.
+        - Pro-Democracy: Promoting active civic engagement and democratic governance.
+        - Hobbesianism: Highlighting the necessity of authority and power for societal stability.
+        - Environmentalism: Prioritizing the preservation and health of natural ecosystems.
+        - National Prestige/Patriotism: Valuing the nation's global standing and influence.
+        - Virtue of Gallantry/Machismo: Upholding values like honor, courage, and physical prowess.
+        - Intellectualism: Esteeming knowledge, scholarship, and educational pursuits.
+        - Aestheticism: Valuing the creation and appreciation of beauty, art, and cultural wealth.
+
+
+
+
+
+### Instructions ###
+With the above guidelines in mind, I can now give the instructions for how to fill out the fields of the forum page. Please follow these precisely.
+
+
+You will need to fill out the following fields:
+
+* Field 1: the High-level Summary of the Bill *
+A statement, in simple language, of the purpose of the bill and what it proposes to change. Make it clear and concise - ideally 1-2 sentences.
+
+If there is any relevant context or background, include it in the optional second paragraph.
+
+
+* Field 2: the Detailed Summary of the Bill *
+Whereas the high-level summary describes the idea of the bill without necessarily referring to specific legislation, this section should briefly describe which legislation is affected and how. There is currently a word limit of 300 words.
+
+If there is a good bill digest or explanatory memo associated with the bill, you may be able to take guidance from it. If copying passages from these sources verbatim, please make sure to attribute and represent them as quotes, e.g. `From the explanatory memo: <blockquote>...</blockquote>`.
+
+
+* Field 3: the Argument For the Bill *
+This field should follow the argument guidelines that you read earlier. It must begin by enumerating appropriate Normative Bases (with hyperlinks) under an italicised heading of this name. This section can be brief if there is not much to say, or longer if there are many reasons to support the bill.
+
+
+* Field 4: the Argument Against the Bill *
+This field should follow the argument guidelines that you read earlier. It must begin by enumerating appropriate Normative Bases (with hyperlinks) under an italicised heading of this name. This section can be brief if there is not much to say, or longer if there are many reasons to oppose the bill.
+
+
+* Field 5: Categories *
+Choose up to 3 categories that best describe the bill from the following list:
+```
+- Anti-Corruption
+- Civics
+- Criminal Law Reform
+- Family Law Reform
+- Education
+- Media / Advertising
+- Climate Change / Environment
+- Democratic Institutions
+- Competition Policy
+- Consumer Protection
+- National Security
+- Defence
+- Discrimination / Human Rights
+- Trade Policy
+- Social Support / Welfare
+- Poverty
+- Labour
+- Housing Policy
+- Healthcare
+- Industrial Policy
+- Immigration
+- Energy Policy
+- Infrastructure
+- Foreign Policy
+- Financial Regulation
+- Agriculture
+- Transport
+- Science / Technology
+- Taxation
+- Indigenous
+- Fiscal Package (Stimulus / Debt Relief)
+
+
+
+Return your answer as a JSON object with the following structure:
+```
+{
+  "high_level_summary": "The bill proposes to...",
+  "detailed_summary": "The bill affects...",
+  "argument_for": "The bill should be supported because...",
+  "argument_against": "The bill should be opposed because...",
+  "categories": ["Civics", "Education"]
+}
+```
+Remember that "high_level_summary", "detailed_summary", "argument_for", and "argument_against" should be in HTML, using the same set of tags you have seen in the earlier Worked Example (plus `blockquote` for quotes). Recall that `<ul><li>` will work for bulleted lists and `<ol><li>` for numbered lists, <b> for bold and <u> for underlined. Footnotes should follow the same HTML formatting you saw earlier.
+
+Thank you in advance.
+
+
+
+
+### Information about the Bill ###
+Finally, here is some context about the bill itself. The bill is titled "Health Legislation Amendment (Improved Medicare Integrity and Other Measures) Bill 2024". The below is a dump of one or more PDFs that explains more about the bill. You will need to use this information to fill out the fields:
+
+ 
+ 
+ 
+ 
+ 
+ 
+2022-2023-2024 
+ 
+ 
+ 
+THE PARLIAMENT OF THE COMMONWEALTH OF AUSTRALIA 
+ 
+ 
+ 
+ 
+HOUSE OF REPRESENTATIVES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+HEALTH LEGISLATION AMENDMENT (IMPROVED MEDICARE 
+INTEGRITY AND OTHER MEASURES) BILL 2024 
+ 
+ 
+ 
+ 
+ 
+EXPLANATORY MEMORANDUM 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(Circulated by authority of the Minister for Health and Aged Care, the Hon Mark 
+Butler MP)  
+ 
+  
+ 
+ 
+1 
+HEALTH LEGISLATION AMENDMENT (IMPROVED MEDICARE INTEGRITY 
+AND OTHER MEASURES) BILL 2024 
+ 
+OUTLINE 
+ 
+The Health Legislation Amendment (Improved Medicare Integrity and Other 
+Measures) Bill 2024 (the Bill) amends the Health Insurance Act 1973 (the Health 
+Insurance Act), the National Health Act 1953 (the National Health Act), the Human 
+Services (Medicare) Act 1973 (the Human Services Medicare Act), the Dental 
+Benefits Act 2008 (the Dental Benefits Act), the Therapeutic Goods Act 1989 
+(the Therapeutic Goods Act), and the Public Health (Tobacco and Other Products) 
+Act 2023 (the Tobacco Act) to implement a number of important public health 
+measures. These measures are principally intended to protect the integrity of 
+Medicare, enhance the regulation of goods under the Therapeutic Goods Act and 
+make minor amendments to the Tobacco Act. 
+ 
+A number of the amendments in the Bill form part of the response to the 
+recommendations of the independent Review of Medicare Integrity and Compliance 
+undertaken by Dr Pradeep Philip (Philip Review). The Philip Review identified a 
+range of issues that affect the effective administration of health benefits schemes – in 
+particular, the power to detect, respond to, investigate, disclose and deter misconduct, 
+fraud and non-compliance. The amendments are necessary to protect the integrity of, 
+and support the ongoing sustainability of, Australia’s health benefits schemes – the 
+Medicare Benefits Schedule (MBS), the Pharmaceutical Benefits Scheme (PBS), and 
+the Child Dental Benefits Schedule (CDBS). The Bill addresses a range of issues that 
+are currently inhibiting the ability of the Department of Health and Aged Care 
+(the Department) to conduct efficient, timely, and effective compliance activities. 
+ 
+Measures relating to Medicare integrity 
+ 
+The amendments relating to Medicare integrity are principally intended to: 
+ 
+• improve payment integrity and reduce the number of incorrectly and 
+fraudulently made claims by changing the timeframe for making Medicare 
+claims for bulk-billed services from 2 years to 1 year; 
+ 
+• update and broaden investigative powers to ensure they can be used 
+consistently, effectively, and appropriately across health benefits schemes and 
+in relation to a broader number of offences; and 
+ 
+• improve pharmacy approval processes by making the processes simpler and 
+more efficient. 
+ 
+Australia has a world class health system that offers affordable, high-quality and 
+accessible health care to all Australians. This is due in large part to the various health 
+benefits schemes – including Medicare and its programs – that help Australians pay 
+for the health care and medicines that they need. 
+ 
+2 
+In 2023-24, payments for personal benefits including medical services, 
+pharmaceutical services and private health insurance rebates totalled at least $65.1 
+billion – being approximately 63% of the total funding paid by the Department.1 
+ 
+Legitimate public policy considerations require that the integrity of an investment on 
+this scale is appropriately protected. This is because public resources are limited; any 
+loss due to incorrect payments or fraud results in a reduced ability of others to access 
+health services. 
+ 
+It is essential that there are robust structures in place to identify and address incorrect 
+payments and non-compliance. Such structures ensure that public resources are 
+directed to necessary health services, and to ensure that health benefits schemes are – 
+and continue to be – sustainable. 
+ 
+While the Philip Review found that most health professionals are well meaning and 
+protective of the health system, it also noted that changes are needed to improve the 
+compliance system underpinning Medicare to ensure it remains rigorous and effective. 
+ 
+The Bill makes several amendments in response to recommendations from the Philip 
+Review to protect the integrity of health schemes and ensure robust systems are in 
+place to prevent, identify, and respond to instances of non-compliance and fraud. 
+ 
+These improvements will assist to ensure public resources are directed to necessary 
+health services and that Australia’s healthcare systems remain sustainable and cost-
+effective. 
+ 
+The Philip Review 
+ 
+The Philip Review focussed on the Medicare payment system and specifically on the 
+integrity of claims for payment made by health practitioners. The review made a 
+range of recommendations about how integrity could be strengthened, and how 
+compliance processes could be streamlined and improved. Following these 
+recommendations, the Bill seeks to amend health portfolio legislation to streamline, 
+strengthen, and increase the efficacy of processes for addressing non-compliance and 
+fraud involving health benefits schemes. 
+ 
+The Philip Review referred to the need for integrity activities to identify and respond 
+to any actors in the system who are unintentionally or dishonestly obtaining an 
+incorrect payment. The Philip Review also referred to the need to ensure patient 
+safety in all aspects of health services. 
+ 
+The Philip Review noted that the systems underpinning health benefit schemes require 
+changes to ensure that they remain rigorous and effective. 
+ 
+While the review highlighted issues in relation to Medicare, the Department considers 
+these issues are also relevant in relation to other health benefits schemes such as the 
+Pharmaceutical Benefits Scheme. 
+                                                 
+1 Australian Public Service Commission, Capability Review Department of Health and Aged Care, p7. 
+ 
+3 
+ 
+The measures in the Bill are expected to increase the overall effectiveness and 
+efficiency of compliance activities. The impact of these integrity measures is that 
+patients and practitioners can expect to benefit from better protected health benefits 
+schemes that will provide more secure access to safe, quality healthcare services. 
+ 
+Timeframes for making Medicare claims 
+ 
+The Bill changes the timeframe (from 2 years to 1 year) during which claims relating 
+to bulk-billed Medicare and dental services may be made. 
+  
+This will improve payment integrity and reduce the number of incorrect and 
+fraudulently made claims. The Minister (for Medicare claims) and the Chief 
+Executive Medicare (for dental claims) will continue to have discretion to allow 
+claims to be made after 1 year. This is likely to have minimal impact on patients and 
+practitioners as most claims are already made within 1 year. 
+  
+Investigative powers 
+ 
+The investigative powers in Part IID of the Human Services Medicare Act are 
+fragmented and apply inconsistently due to the definition of ‘relevant offence’ in 
+section 3A of that Act. 
+ 
+The result is that authorised officers undertaking investigations do not have access to 
+the full suite of powers for numerous offences. This is particularly problematic for the 
+investigation of offences under the Criminal Code Act 1995 (Criminal Code) and the 
+offences relating to PBS fraud in the National Health Act. In more serious cases, 
+offences under the Criminal Code may be more appropriate given the higher 
+maximum penalties available. 
+ 
+There are also time restrictions on the ability to search with consent and on the 
+retention of important evidence, which may result in difficulties undertaking 
+prosecutions. Overall, the current powers are so narrow that they impede the proper 
+exercise of powers to detect, investigate and refer potential fraud matters. 
+ 
+The Bill amends the definition of ‘relevant offence’ in the Human Services Medicare 
+Act to enable a single, consistent suite of investigative powers in relation to Medicare 
+fraud offences. The amended definition incorporates a greater number of criminal 
+offences – including additional offences in the Criminal Code such as money 
+laundering, forgery and identity fraud offences, all of which are relevant to Medicare 
+fraud. 
+ 
+The changes will improve the use of the investigative powers, addressing gaps and 
+inconsistencies in the current application of the provisions. The result will be greater 
+scope to respond to potential non-compliance and fraud, enabling the investigation of 
+a much broader range of conduct and, ultimately, improve abilities to successfully 
+respond to potential misconduct. 
+ 
+4 
+Pharmacy approval processes 
+ 
+The National Health Act provides that the Secretary of the Department may, upon 
+application by a pharmacist, approve that pharmacist to supply pharmaceutical 
+benefits from particular premises. 
+ 
+Applications to establish a new pharmacy or relocate an existing pharmacy approved 
+to supply pharmaceutical benefits must first be assessed against the National Health 
+(Australian Community Pharmacy Authority Rules) Determination 2018 (PB 46 of 
+2018) (the Location Rules) determined by the Minister for Health and Aged Care (the 
+Minister) before the Secretary can consider granting approval to the pharmacist. 
+Where an application does not meet the requirements of the Location Rules, section 
+90A of the National Health Act provides the Minister with a discretionary power to 
+substitute the Secretary’s decision to reject an application because it did not meet the 
+requirements of the Location Rules, with a decision approving the pharmacist to 
+supply pharmaceutical benefits at particular premises. 
+ 
+Section 90B of the Act stipulates the process by which a pharmacist may request the 
+Minister to exercise discretionary power under section 90A to substitute a decision by 
+the Secretary to not approve a pharmacist for the purpose of supplying pharmaceutical 
+benefits at particular premises with a decision approving the pharmacist. 
+ 
+These amendments reduce the timeframe in which the Minister may exercise this 
+power by replacing the current two stage process (which can take up to three months 
+for each stage), with a single stage process of up to four months. This will reduce the 
+significant administrative burden on staff resources and provide the community with 
+more timely access to pharmaceutical benefits in circumstances where the Minister 
+approves a request to exercise the discretionary power. 
+ 
+In circumstances where the Minister decides not to exercise discretion to approve a 
+request, the amendments prevent the applicant from making another request to the 
+Minister for the same premises as the initial request, within 12 months of the initial 
+request to the Minister, as the circumstances are unlikely to have changed. 
+ 
+Delegation of form 
+ 
+Subsection 90B(2) of the National Health Act provides that the Minister may 
+determine the form in which a request to the Minister to approve a pharmacist under 
+the section must be made. If the Minister does so, such a request must be made on that 
+form. This function cannot currently be delegated and therefore any changes to the 
+form must be approved by the Minister. 
+ 
+The amendments enable the power to determine the form to be delegated. This will 
+remove the need for the Minister to approve what is essentially an administrative 
+matter and allow more timely changes to be made to the form as required. 
+ 
+Australian Community Pharmacy Authority membership term 
+ 
+Section 99N of the National Health Act specifies the make-up of the membership of 
+the Australian Community Pharmacy Authority (Authority), and the term of 
+5 
+appointment at subsection 99N(5). The process for seeking nominations and 
+subsequent endorsement of the nominees is administratively burdensome on 
+nominating organisations and the Australian Government. The amendments increase 
+the membership term from two years to three years, which will provide greater 
+stability to the Authority and reduce administrative burden on nominating 
+organisations and the Australian Government. 
+ 
+Measures under the Therapeutic Goods Act 
+ 
+The Therapeutic Goods Act provides for the establishment and maintenance of a 
+national system of controls for the quality, safety, efficacy or performance, and timely 
+availability of therapeutic goods that are used in, or exported from, Australia. It also 
+provides for the establishment and maintenance of a national system of controls for 
+the importation, manufacture, supply, commercial possession, advertising and export 
+of vaping goods. The Therapeutic Goods Act is administered by the Therapeutic 
+Goods Administration (TGA) within the Department. 
+ 
+The amendments to the Therapeutic Goods Act are principally intended to: 
+ 
+• enhance the Department’s capacity to manage and alleviate the consequences 
+of therapeutic goods shortages; 
+ 
+• support compliance and enforcement activities by: 
+ 
+broadening the circumstances in which section 52AAA is enlivened, to 
+ensure that the forfeiture arrangements in that provision apply in relation to 
+the range of circumstances in which goods may be seized under the 
+Therapeutic Goods Act, rather than, as currently, only under a warrant 
+issued under section 50; 
+ 
+− revising several provisions in Part 6-2 that deal with entry to and searches 
+of premises, as well as warrants to undertake such action, to ensure they 
+are better aligned with the model provisions of the Regulatory Powers 
+(Standard Provisions) Act 2014 (the Regulatory Powers Act); 
+ 
+− appropriately lowering the threshold that must be satisfied before the 
+Secretary may give an enforceable direction to a person under section 
+42YT, from the current requirement that a direction is necessary to protect 
+the health and safety of humans, with a more balanced approach that a 
+direction must be considered in the interests of public health and safety—
+better ensuring the availability of such directions to protect Australians 
+from new and emerging public health threats; 
+ 
+− enabling certain state and territory officers to issue notices requiring 
+persons to give specified information, or to produce specified documents, 
+that are relevant to a contravention or possible contravention of the 
+Therapeutic Goods Act; 
+ 
+6 
+− clarify that section 61, which authorises the release of information in 
+relation to therapeutic goods and vaping goods in certain circumstances, is 
+not a secrecy provision; 
+ 
+• reflect that the Secretary’s power under section 7 of the Therapeutic Goods 
+Act to declare that a good meets, or does not meet, the definition of a 
+‘therapeutic good' under the Act is legislative in nature, and that therefore the 
+Secretary’s power should not be subject to an application process or to merits 
+review of decisions to refuse to make, vary or repeal a legislative instrument 
+made under section 7  declaring goods to be, or not to be, therapeutic goods; 
+ 
+• update the power in section 63 to make regulations under the Therapeutic 
+Goods Act to align with other provisions in that Act, and the terms of the 
+Legislation Act 2003, by ensuring that the regulations may prescribe matters 
+by reference to ‘other writing’ as in force or existing from time to time, 
+alongside the existing power to make regulations prescribing matters by 
+reference to an instrument in force or existing from time to time; 
+ 
+• introduce a consolidated set of tiered offences and a civil penalty for breaching 
+a condition of an exemption, or certain approvals or authorisations to access 
+biologicals that are not included in the Australian Register of Therapeutic 
+Goods (the Register), to align with equivalent provisions in the Therapeutic 
+Goods Act for medicines and medical devices; 
+ 
+• ensure consistency of the Secretary’s power to cancel the registration or listing 
+of medicines from the Register that are also covered by an exemption, with 
+other cancellation powers in the Therapeutic Goods Act (in some instances 
+medicines that are covered by an exemption may inadvertently be registered or 
+listed – the amendment would ensure the power to remove such products, as 
+they do not need to be in the Register to be lawfully supplied, because they are 
+exempt); 
+ 
+• remove the Secretary’s obligation to publish in the Gazette or on the 
+Department’s website the names of authorised persons under the Therapeutic 
+Goods Act and its regulations, given privacy and safety concerns of affected 
+persons; 
+ 
+• enable regulations to be made under the Therapeutic Goods Act that prescribe 
+circumstances in which the Secretary must not grant an authority to a medical 
+practitioner under the Authorised Prescriber pathway for accessing therapeutic 
+goods that are not included in the Register, to protect patients from products 
+that may not be safe or effective; and 
+ 
+• clarify that, if the regulations prescribe a fee in connection with the Secretary’s 
+power to grant consents under sections 14, 14A, 32BF, 41RC, 41MA, and 
+41MAA, payment of that fee is a pre-condition to the exercise of the 
+Secretary’s power to give the consent. 
+ 
+The Bill also amends the Therapeutic Goods Act to make minor consequential 
+amendments to support the Government's vaping reforms. These amendments: 
+7 
+ 
+• enable the making of regulations to prohibit dealings in vaping goods that are 
+the subject of an international agreement to which Australia is a party; 
+ 
+• clarify that the authority under which the Secretary may determine that the 
+supply of exempt therapeutic vaping goods should be ceased resides in the 
+regulations; 
+ 
+• enable the Secretary to issue a direction under Part 5-1A in relation to the 
+dissemination of generic information about vaping goods, including a 
+direction to cease the dissemination; and 
+ 
+• clarify that the dissemination of generic information about vaping goods is 
+regulated under Part 5-1A, rather than Part 5-1, of the Therapeutic Goods Act. 
+ 
+Measures under the Tobacco Act  
+ 
+The Tobacco Act consolidated a number of Acts and instruments, including eight 
+different tobacco-related Acts, legislative instruments and court decisions 
+administered across the Health and Treasury portfolios. The measures have been 
+streamlined and modernised to strengthen Australia’s regulation of tobacco products 
+in line with international best practice. 
+ 
+The Bill amends the Tobacco Act to: 
+ 
+• ensure that all Australian Public Service (APS) employees are eligible to be 
+authorised officers under the Tobacco Act; 
+ 
+• enable the making of regulations to facilitate smooth phase in and phase out 
+of future series of regulated tobacco product requirements; 
+ 
+• ensure corporations are captured by tobacco and e-cigarette sponsorship 
+prohibitions; and 
+ 
+• clarify the interaction between the Tobacco Act and the Therapeutic Goods 
+Act regarding e-cigarette (also known as vaping goods) advertising 
+prohibitions, following the vaping reforms introduced under the Therapeutic 
+Goods and Other Legislation (Vaping Reforms) Act 2024. The amendments: 
+o make clear that the advertising of vaping goods (including 
+e-cigarette- products) is concurrently prohibited under the Tobacco 
+Act and the Therapeutic Goods Act; and 
+o remove certain exceptions and permissions in relation to e-cigarette 
+advertising to better harmonise the Tobacco Act e-cigarette 
+advertising prohibition with the Therapeutic Goods Act vaping goods 
+advertising framework. 
+ 
+  
+8 
+Financial Impact Statement 
+ 
+The measure in this Bill reducing the timeframe for making bulk-billed claims 
+involves savings of up to $33.6 million. 
+ 
+The Government will provide $82.0 million over four years from 2023-24 to support 
+the vaping reforms, awareness raising and enforcement activities. Funding includes: 
+ 
+• $56.9 million over two years from 2023-24 to the Therapeutic Goods 
+Administration to support regulatory development activities; and 
+ 
+• $25.0 million over two years from 2023-24 to support the Australian Border 
+Force’s regulatory and enforcement activities. 
+ 
+This measure builds on the 2023-24 Budget measure titled Vaping Regulation Reform 
+and Smoking Cessation Package. The package committed to ban all vapes, other than 
+therapeutic vapes imported, manufactured or supplied in accordance with the 
+Therapeutic Goods Act. 
+ 
+The Government is implementing a comprehensive range of measures in partnership 
+with states and territories to reduce smoking and vaping through stronger legislation, 
+enforcement, education and support. The vaping reforms support the Government’s 
+implementation of the National Tobacco Strategy 2023-2030 and complement related 
+initiatives on vaping and smoking prevention and cessation support. 
+ 
+Other measures in the Bill are expected to result in increased recovery of amounts to 
+the Commonwealth but have not been specifically costed. 
+ 
+Impact analysis 
+ 
+The Office of Impact Analysis has been consulted on the measures relating to 
+Medicare integrity and has advised that these are unlikely to have more than minor 
+impacts and an impact analysis is not required (OIA24-06731, OIA23-05273 and 
+OIA24-07309. 
+ 
+An impact analysis was prepared on the proposed reforms to the regulation of vapes 
+in October 2023 based on the feedback received from stakeholders and the Australian 
+public. The Office of Impact Analysis assessed the impact analysis and determined 
+that it was consistent with good practice and met Australian Government best practice 
+regulation requirements (OBPR23-03933). 
+ 
+The Office of Impact Analysis was further consulted in relation to the non-vaping 
+measures under the Therapeutic Goods Act and advised that an impact analysis is not 
+required in relation to the proposed amendments (OBPR23-03933; OIA23-05975; 
+OIA24-07685 and OIA24-07914). 
+ 
+Likewise, the Office of Impact Analysis was consulted in relation to the proposed 
+amendments to the Tobacco Act and advised an impact analysis is not required as the 
+amendments are considered minor or machinery in nature (OIA24-08305). An Impact 
+9 
+Analysis was prepared for the initial Public Health (Tobacco and Other Products) 
+Act 2023 (OBPR22-02938). 
+ 
+Consultation  
+ 
+The Department consulted with the Attorney-General's Department (AGD), the 
+Department of Social Services, Services Australia, the Commonwealth Director of 
+Public Prosecutions, and the Professional Services Review Agency in relation to the 
+Medicare integrity measures. The Philip Review, which forms the policy basis for the 
+amendments, conducted broad consultation with professional medical associations. 
+ 
+Between November and December 2023, the Department consulted with a range of 
+stakeholders about the proposed amendment to clarify section 61 of the Therapeutic 
+Goods Act (which permits the release of information) is not a ‘secrecy’ provision. 
+Invitations for comment on this measure were sent to 31 stakeholders, including state 
+and territory health departments, and a number of industry representative bodies. 
+While most respondents have no concerns with this measure, Medicines Australia and 
+Complementary Medicines Australia opposed it, principally on the basis that they 
+considered it to be unnecessary. 
+ 
+The Department consulted AGD in relation to the other therapeutic goods and vaping 
+goods measures, including on the proposed amendments relating to forfeiture 
+arrangements, enforceable directions, delegations, and aligning the offence and civil 
+penalty provisions for breaching a condition of an exemption, approval or authority to 
+access unapproved biologicals with the equivalent measures for unapproved 
+medicines and medical devices. AGD was generally supportive of these measures. 
+ 
+AGD recommended the Department undertake a privacy impact assessment to support 
+the proposed amendments to the Secretary’s delegation power under the Therapeutic 
+Goods Act as those amendments would increase the entities who may collect, use, 
+disclose and retain personal information, and may also include the handling of 
+sensitive personal information. 
+ 
+The Department also consulted with state and territory agencies whose officers have 
+regulatory functions relating to the compliance and enforcement of vaping goods 
+under the Therapeutic Goods Act and its regulations. Overall, jurisdictions were 
+supportive of the proposed amendments to the Secretary’s delegation power, noting 
+the amendments would enhance their ability to monitor, investigate and enforce 
+compliance with the Therapeutic Goods Act and its regulations. Several jurisdictions 
+also noted that the proposed amendments and the associated powers were similar in 
+nature to provisions that are currently in place under their respective legislation and 
+are routinely used. 
+ 
+Each jurisdiction was also consulted on whether or not it would be practical to limit 
+these powers to Senior Executive Service (or equivalent) officers, which AGD had 
+also recommended as a way of managing any privacy risks. One jurisdiction – 
+Queensland – expressly stated it would not be practical to do so. Other jurisdictions 
+were agreeable to limiting the exercise of relevant powers to Senior Executive Service 
+(or equivalent) officers, or otherwise did not respond. 
+ 
+10 
+In the absence of any consensus, the Department intends to consider other 
+mechanisms to protect privacy prior to delegating the relevant powers to state and 
+territory officers. This includes making a direction under the Therapeutic Goods Act 
+to require that delegates must take reasonable steps to limit the collection of personal 
+information (unless relevant to an investigation), and must make best efforts to 
+comply with the requirements of the Commonwealth Privacy Act (or similar). 
+ 
+The Department has not undertaken any consultation in relation to the other proposed 
+amendments to the Therapeutic Goods Act, as those amendments are minor, 
+machinery or consequential in nature, or would otherwise correct an error. 
+ 
+The Department consulted extensively on the Tobacco Act. It has not been considered 
+necessary to further consult on the proposed amendments to the Tobacco Act in this 
+Bill as the amendments are clarifications consistent with original policy intent. 
+ 
+11 
+Statement of Compatibility with Human Rights 
+ 
+Prepared in accordance with Part 3 of the Human Rights (Parliamentary Scrutiny) Act 
+2011 
+ 
+HEALTH LEGISLATION AMENDMENT (IMPROVED MEDICARE 
+INTEGRITY AND OTHER MEASURES) BILL 2024 
+ 
+This Bill is compatible with the human rights and freedoms recognised or declared in 
+the international instruments listed in section 3 of the Human Rights (Parliamentary 
+Scrutiny) Act 2011. 
+Overview of the Bill 
+ 
+Measures under the Health Insurance Act 1973, National Health Act 1953, Dental 
+Benefits Act 2008, and Human Services (Medicare) Act 1973. 
+ 
+The Health Legislation Amendment (Improved Medicare Integrity and Other 
+Measures) Bill 2024 (the Bill) amends the National Health Act 1953 (National Health 
+Act), Health Insurance Act 1973 (Health Insurance Act), Human Services (Medicare) 
+Act 1973 (Human Services (Medicare) Act), and Dental Benefits Act 2008 (Dental 
+Benefits Act) to protect the integrity and support the ongoing sustainability of 
+Australia’s health benefits schemes, including the Medicare Benefits Schedule 
+(MBS), Pharmaceutical Benefits Scheme (PBS), and the Child Dental Benefits 
+Schedule (CDBS). It does so by addressing issues that are currently inhibiting the 
+ability of the Department of Health and Aged Care to conduct efficient, timely, and 
+effective compliance activities. 
+ 
+The amendments relating to Medicare integrity are principally intended to: 
+ 
+• improve payment integrity and reduce the number of incorrect and 
+fraudulently made claims by changing the timeframe for making Medicare 
+claims for bulk-billed services from 2 years to 1 year; 
+ 
+• update and broaden investigative powers to ensure they can be used 
+consistently, effectively, and appropriately across health benefits schemes and 
+in relation to a broader number of offences; and 
+ 
+• improve pharmacy approval processes by making the processes simpler and 
+more efficient. 
+ 
+Measures under the Therapeutic Goods Act 1989 
+ 
+The Therapeutic Goods Act 1989 (the Therapeutic Goods Act) provides for the 
+establishment and maintenance of a national system of controls for the quality, safety, 
+efficacy or performance, and timely availability of therapeutic goods that are used in, 
+or exported from, Australia. It also provides for the establishment and maintenance of 
+a national system of controls for the importation, manufacture, supply, commercial 
+possession, advertising and export of vaping goods. The Therapeutic Goods Act is 
+administered by the Therapeutic Goods Administration (TGA) within the Department. 
+12 
+ 
+The amendments to the Therapeutic Goods Act are principally intended to: 
+ 
+• enhance the Department’s capacity to manage and alleviate the consequences 
+of therapeutic goods shortages; 
+ 
+• support compliance and enforcement activities by: 
+ 
+− broadening the circumstances in which section 52AAA is enlivened, to 
+ensure that the forfeiture arrangements in that provision apply in relation to 
+the range of circumstances in which goods may be seized under the 
+Therapeutic Goods Act, rather than, as currently, only under a warrant 
+issued under section 50; 
+ 
+− revising several provisions in Part 6-2 that deal with entry to and searches 
+of premises, as well as warrants to undertake such action, to ensure they 
+are better aligned with the model provisions of the Regulatory Powers 
+(Standard Provisions) Act 2014 (the Regulatory Powers Act); 
+ 
+− appropriately lowering the threshold that must be satisfied before the 
+Secretary may give an enforceable direction to a person under section 
+42YT, from the current requirement that a direction is necessary to protect 
+the health and safety of humans, with a more balanced approach that a 
+direction must be considered in the interests of public health and safety—
+better ensuring the availability of such directions to protect Australians 
+from new and emerging public health threats; 
+ 
+− enabling certain state and territory officers to issue notices requiring 
+persons to give specified information, or to produce specified documents, 
+that are relevant to a contravention or possible contravention of the 
+Therapeutic Goods Act; 
+ 
+− clarify that section 61, which authorises the release of information in 
+relation to therapeutic goods and vaping goods in certain circumstances, is 
+not a secrecy provision; 
+ 
+• reflect that the Secretary’s power under section 7 of the Therapeutic Goods 
+Act to declare that a good meets, or does not meet, the definition of a 
+‘therapeutic good' under the Act is legislative in nature, and that therefore the 
+Secretary’s power should not be subject to an application process or to merits 
+review of decisions to refuse to make, vary or repeal a legislative instrument 
+made under section 7  declaring goods to be, or not to be, therapeutic goods; 
+ 
+• update the power in section 63 to make regulations under the Therapeutic 
+Goods Act to align with other provisions in that Act, and the terms of the 
+Legislation Act 2003, by ensuring that the regulations may prescribe matters 
+by reference to ‘other writing’ as in force or existing from time to time, 
+alongside the existing power to make regulations prescribing matters by 
+reference to an instrument in force or existing from time to time; 
+13 
+ 
+• introduce a consolidated set of tiered offences and a civil penalty for breaching 
+a condition of an exemption, or certain approvals or authorisations to access 
+biologicals that are not included in the Australian Register of Therapeutic 
+Goods (the Register), to align with equivalent provisions in the Therapeutic 
+Goods Act for medicines and medical devices; 
+ 
+• ensure consistency of the Secretary’s power to cancel the registration or listing 
+of medicines from the Register that are also covered by an exemption, with 
+other cancellation powers in the Therapeutic Goods Act (in some instances 
+medicines that are covered by an exemption may inadvertently be registered or 
+listed – the amendment would ensure the power to remove such products, as 
+they do not need to be in the Register to be lawfully supplied, because they are 
+exempt); 
+ 
+• remove the Secretary’s obligation to publish in the Gazette or on the 
+Department’s website the names of authorised persons under the Therapeutic 
+Goods Act and its regulations, given privacy and safety concerns of affected 
+persons; 
+ 
+• enable regulations to be made under the Therapeutic Goods Act that prescribe 
+circumstances in which the Secretary must not grant an authority to a medical 
+practitioner under the Authorised Prescriber pathway for accessing therapeutic 
+goods that are not included in the Register, to protect patients from products 
+that may not be safe or effective; and 
+ 
+• clarify that, if the regulations prescribe a fee in connection with the Secretary’s 
+power to grant consents under sections 14, 14A, 32BF, 41RC, 41MA, and 
+41MAA, payment of that fee is a pre-condition to the exercise of the 
+Secretary’s power to give the consent. 
+ 
+The Bill also amends the Therapeutic Goods Act to make minor consequential 
+amendments to support the Government's vaping reforms. These amendments: 
+ 
+• enable the making of regulations to prohibit dealings in vaping goods that are 
+the subject of an international agreement to which Australia is a party; 
+ 
+• clarify that the authority under which the Secretary may determine that the 
+supply of exempt therapeutic vaping goods should be ceased is in the 
+regulations; 
+ 
+• enable the Secretary to issue a direction under Part 5-1A in relation to the 
+dissemination of generic information about vaping goods, including a 
+direction to cease the dissemination; and 
+ 
+• clarify that the dissemination of generic information about vaping goods is 
+regulated under Part 5-1A, rather than Part 5-1, of the Therapeutic Goods Act. 
+ 
+  
+14 
+Measures under the Public Health (Tobacco and Other Products) Act 2023 
+ 
+The Public Health (Tobacco and Other Products) Act 2023 (the Tobacco Act) 
+consolidated a number of instruments, including eight tobacco-related Acts, 
+legislative instruments and court decisions administered across the Health and 
+Treasury portfolios. The measures have been streamlined and modernised to 
+strengthen Australia’s regulation of tobacco products in line with international best 
+practice. 
+ 
+The Bill amends the Tobacco Act to: 
+ 
+• ensure that all Australian Public Service (APS) employees are eligible to be 
+authorised officers under the Tobacco Act; 
+ 
+• enable the making of regulations to facilitate smooth phase in and phase out 
+of future series of regulated tobacco product requirements; 
+ 
+• ensure corporations are captured by tobacco and e-cigarette sponsorship 
+prohibitions; and 
+ 
+• clarify the interaction between the Tobacco Act and the Therapeutic Goods 
+Act regarding e-cigarette (also known as vaping goods) advertising 
+prohibitions, following the vaping reforms introduced under the Therapeutic 
+Goods and Other Legislation (Vaping Reforms) Act 2024. The amendments: 
+o make clear that the advertising of vaping goods (including e-cigarette 
+products) is concurrently prohibited under the Tobacco Act and the 
+Therapeutic Goods Act; and 
+o remove certain exceptions and permissions in relation to e-cigarette 
+advertising to better harmonise the Tobacco Act e-cigarette 
+advertising prohibition with the Therapeutic Goods Act vaping goods 
+advertising framework. 
+ 
+Human rights implications 
+ 
+Measures under the Health Insurance Act 1973, National Health Act 1953, Dental 
+Benefits Act 2008, and Human Services (Medicare) Act 1973 
+ 
+The Bill engages the following human rights in relation to the proposed amendments 
+to the Health Insurance Act 1973, National Health Act 1953, Dental Benefits Act 
+2008, and Human Services (Medicare) Act 1973: 
+ 
+• the right to health under Article 12 of the International Covenant on 
+Economic, Social and Cultural Rights (ICESCR); 
+ 
+• the right to social security under article 9 of the ICESCR; and 
+ 
+• the right to privacy under Article 17 of the International Covenant on Civil and 
+Political Rights (ICCPR). 
+ 
+15 
+Right to health 
+ 
+The Bill engages the right to health. Article 12(1) of the ICESCR promotes the right 
+of all individuals to enjoy the highest attainable standard of physical and mental 
+health. The Bill assists with the progressive realisation of the right of all individuals to 
+enjoy this high standard by strengthening and protecting the integrity of Australia’s 
+health benefits schemes. In doing so, the Bill supports the ongoing sustainability and 
+effectiveness of these schemes, and therefore ensures that Australians can continue to 
+access affordable, efficient and high-quality healthcare. 
+ 
+Strong health benefits schemes are fundamental to Australia’s world-class health 
+system and the positive healthcare outcomes it delivers for patients. The Bill supports 
+these schemes, and therefore the broader health system, by enhancing the compliance 
+systems and processes that enable: 
+ 
+• the prevention, identification, and response to instances of non-compliance, 
+and fraud, in relation to health benefits schemes; 
+ 
+• access to health benefits through health benefits schemes; 
+ 
+• access to safe, high-quality, and affordable health services, including access to 
+pharmacy services; 
+ 
+• the effective and appropriate prosecution of serious cases of non-compliance 
+that risk Commonwealth funds, as well as patient safety and wellbeing; and 
+ 
+• the recovery of incorrect payments. 
+  
+These functions are essential to ensuring that the public funds invested in health 
+benefits schemes are utilised for their intended purpose: providing Australians with 
+access to quality care and improving healthcare outcomes. 
+ 
+Right to social security 
+  
+The Bill engages Article 9 of the ICESCR which recognises the right to social 
+security, including social insurance. 
+  
+The Bill safeguards the integrity of Australia’s health benefits schemes, primarily by 
+strengthening the compliance activities that protect these schemes from fraud and 
+other forms of misuse. Health benefits schemes, including Medicare, are a form of 
+social security as they provide a government contribution to certain healthcare costs 
+that Australians incur. By protecting the integrity of these schemes, the Bill ensures 
+that they are sustainable and can therefore continue to provide Australians with access 
+to affordable, high quality, Government-supported healthcare. 
+ 
+Right to privacy 
+ 
+The Bill engages the protection against arbitrary or unlawful interference with 
+privacy. Article 17 of the ICCPR prohibits arbitrary or unlawful interference with an 
+16 
+individual’s privacy, family, home or correspondence, and protects a person’s honour 
+and reputation from unlawful attacks. The right to privacy can be limited to achieve a 
+legitimate objective where the limitations are lawful and not arbitrary. 
+ 
+For interference with the right to privacy to be permissible, the interference must be 
+authorised by law, be for a reason consistent with the ICCPR and be reasonable in the 
+circumstances. 
+ 
+The Bill expands the range of offences in relation to which the investigative powers in 
+the Human Services Medicare Act can be used. The amendments will allow 
+investigators to investigate, and seize evidence, in relation to a broader range of 
+offences – including significant and serious offences in the Criminal Code. 
+Investigators will also have consistent powers in relation to all offences in the Dental 
+Benefits Act, Health Insurance Act and National Health Act. 
+ 
+It is recognised that coercive powers (including the power to search a premises and 
+seize data, and the power to issue a coercive notice) may have a significant impact on 
+the privacy of an individual suspected of committing an offence. However, the Bill 
+achieves a balance between individual rights and the effective performance of the 
+Department’s functions in protecting the integrity of health payments. The coercive 
+powers already include appropriate safeguards to protect individual rights – for 
+example, there are existing restrictions on when a warrant can be issued, and how an 
+officer must conduct themselves while exercising any of their powers. These 
+restrictions, as well as accountability and oversight mechanisms, are already in place 
+and will be appropriately applied to the amendments. This includes the guidelines and 
+training in place for all authorised officers exercising powers under Part IID of the 
+Human Services Medicare Act, as well as departmental approval and record-keeping 
+requirements for all uses of these powers. 
+ 
+The Bill does not seek to increase the powers to give the Department the same powers 
+given to the police in the Crimes Act 1914 – for example, there is no power to arrest 
+or to use physical force against a person. 
+ 
+The amendments to the definition of relevant offence will apply to conduct (including 
+an omission) which constitutes a relevant offence, whether the conduct occurs before, 
+on or after commencement. This therefore enables investigative powers to be used 
+where a person undertakes conduct constituting a relevant offence, regardless of 
+whether that conduct would be considered to be a ‘relevant offence’ at the time. It is 
+important to note, however, that no new offences are being created and the underlying 
+offences are not being changed. In addition, no retrospective criminal liability is 
+created, as the amendments will affect the ability to investigate existing offences and 
+expand the coercive powers of investigators but will not render unlawful conduct that 
+previously was not an offence. There is a legitimate public interest in being able to 
+investigate relevant offences even when the conduct occurred prior to the 
+commencement. This is necessary to ensure that Commonwealth expenditure is 
+protected. 
+ 
+17 
+Measures under the Therapeutic Goods Act 1989 
+ 
+The Bill engages the following human rights in relation to the proposed amendments 
+to the Therapeutic Goods Act: 
+ 
+• the right to health under Article 12 of the ICESCR; 
+ 
+• the right to privacy under Article 17 of the International Covenant on Civil and 
+Political Rights (ICCPR); 
+ 
+• the right to freedom of expression under Article 19(2) of the ICCPR; 
+ 
+• the right to a fair hearing under Article 14(1) of the ICCPR; and 
+ 
+• the right to the presumption of innocence under Article 14(2) of the ICCPR. 
+ 
+Right to health 
+ 
+In General Comment No. 14: The Right to the Highest Attainable Standard of Health 
+(Art. 12) (2000), the United Nations Committee on Economic, Social and Cultural 
+Rights states that health is a ‘fundamental human right indispensable for the exercise 
+of other human rights’, and that the right to health is not to be understood as the right 
+to be healthy, but includes the right to a system of health protection which provides 
+equal opportunity for people to enjoy the highest attainable level of health. 
+ 
+The Bill principally supports the right to health through measures to: 
+ 
+• enhance the effectiveness of the Secretary’s powers to address, and help 
+alleviate, shortages of therapeutic goods, noting that medicines shortages 
+continue to have a significant and concerning impact on public health in 
+Australia; 
+ 
+• improve the flexibility and effectiveness of compliance and enforcement 
+powers under the Therapeutic Goods Act to address and remove unlawful and 
+unsafe therapeutic and vaping goods from the market, protecting Australians 
+from these harmful products. In particular, the measures improve the 
+flexibility and effectiveness of powers under which goods may be forfeited to 
+the Commonwealth, better align entry, search and seizure powers with the 
+model provisions of the Regulatory Powers Act, enable enforceable directions 
+to be given in the interests of public health and safety, enable state and 
+territory officers to issue notices requiring persons to give specified 
+information to a person, and expand the circumstances in which a person may 
+assist an authorised person undertaking a search of premises; 
+ 
+• ensure that the regulations may prohibit the importation, exportation, 
+manufacture and supply of vaping goods that may in the future be the subject 
+of an international agreement to which Australia is a party; and 
+ 
+18 
+• ensure that provisions of the Therapeutic Goods Act addressing the unlawful 
+supply, possession, advertising and dissemination of generic information 
+relating to, vaping goods, are clear and unambiguous. 
+ 
+Right to privacy 
+ 
+The Bill engages the protection against arbitrary or unlawful interference with 
+privacy. Article 17 of the ICCPR prohibits arbitrary or unlawful interference with an 
+individual’s privacy, family, home or correspondence, and protects a person’s honour 
+and reputation from unlawful attacks. The right to privacy can be limited to achieve a 
+legitimate objective where the limitations are lawful and not arbitrary. 
+ 
+For interference with the right to privacy to be permissible, the interference must be 
+authorised by law, be for a reason consistent with the ICCPR and be reasonable in the 
+circumstances. The United Nations Human Rights Committee has interpreted the 
+requirement of ‘reasonableness’ as implying that any interference with privacy must 
+be proportionate to a legitimate end and be necessary in the circumstances. 
+ 
+The Bill provides for the collection, use and disclosure of information, which may 
+include personal information. These provisions engage, and may potentially limit, the 
+right to privacy. The proposed information gathering, reporting and release measures 
+are reasonable, necessary and proportionate to a legitimate objective of supporting the 
+effective implementation of the vaping reforms for a public health objective. 
+ 
+The Bill makes amendments to the arrangements relating to the forfeiture of things 
+under section 52AAA of the Therapeutic Goods Act, to provide that section 52AAA 
+applies not only in relation to things that are seized under a warrant issued under 
+section 50, but also in relation to things that are seized under other provisions in 
+Part 6‑2 (Entry, searches and warrants). 
+ 
+In so doing, these amendments may engage the right to privacy in Article 17 of the 
+ICCPR. To the extent that it may limit this right, the limitation is provided for by law 
+and is necessary to ensure the efficiency with which the Department may disrupt the 
+trafficking of unlawful and potentially dangerous therapeutic goods and vaping goods. 
+The forfeiture of specified things or goods are subject to judicial review and may be 
+challenged by the person who owns or possesses the products. 
+ 
+Further, although Part 6-2 of the Therapeutic Goods Act sets out a range of 
+circumstances in which powers may be exercised in relation to the searching of 
+premises and seizure of things, individuals are protected against arbitrary interference 
+with privacy. 
+ 
+In general, the entry, search and seizure powers cannot be exercised without the 
+person affected being fully informed, a voluntary consent of the occupier of the 
+premises being provided by the affected person, or the presence of a prior 
+authorisation in the form of a warrant. There are exceptions to these in circumstances 
+where an authorised person exercises entry and seizure powers in the interests of 
+public health to avoid an imminent risk of death, serious illness or serious injury 
+(section 46B of the Therapeutic Goods Act refers). 
+ 
+19 
+As such, any interference with an individual’s privacy that may be said to be enabled 
+under the Therapeutic Goods Act in connection with the broadening of the forfeiture 
+arrangements as a result of the Bill would not be an arbitrary inference within the 
+meaning of Article 17 of the ICCPR. 
+ 
+Separately, the Bill engages the right to privacy in relation to the proposed 
+amendments to permit the delegation of the Secretary’s information gathering powers 
+under the following provisions in Part 6-1A of the Therapeutic Goods Act to relevant 
+state or territory officers: 
+ 
+• section 45AB—which provides that the Secretary may, by written notice, 
+require a person to give any information, or produce any documents, specified 
+in the notice that are relevant to a contravention, or possible contravention, of 
+a provision of the Therapeutic Goods Act or its regulations; 
+• section 45AF—which provides that the Secretary may inspect a document that 
+is produced under section 45AB and make and retain copies of the whole or a 
+part of the document; 
+• section 45AG—which provides that the Secretary may take possession of a 
+document produced under section 45AB and keep that document for as long as 
+is reasonably necessary. 
+ 
+Section 45AB is intended to be used where the Secretary has reason to believe that a 
+person has information or documents that would be peculiarly within the person’s 
+knowledge or possession, and which may relate to the Secretary’s investigation of a 
+contravention or suspected contravention of the Therapeutic Goods Act or its 
+regulations. Such information or documents may, for example, include records 
+evidencing payments for the supply of unlawful vaping goods, or information from a 
+person with knowledge relating to the business arrangements for the distribution and 
+retail supply of unlawful vaping goods. 
+ 
+The Secretary’s current inability to delegate their powers and functions under these 
+sections 45AB, 45AF and 45AG limits the extent to which the states and territories 
+can effectively monitor, investigate and enforce compliance with the Therapeutic 
+Goods Act and its regulations, to ensure the safety of therapeutic goods for 
+Australians. 
+ 
+As the effect of this amendment is to broaden the range of persons to whom the 
+Secretary may delegate the Secretary’s powers under sections 45AB, 45AF and 45AG 
+of the Therapeutic Goods Act, a corollary is that the number of entities who may 
+collect, use, disclose and retain personal information will also likely increase. 
+ 
+To ensure that the collection of information under these provisions, and any 
+subsequent use, storage or disclosure of such information, is reasonable, necessary 
+and proportionate, the TGA will, prior to the delegation of these powers to state and 
+territory officers: 
+ 
+• undertake a privacy impact assessment in relation to the specifically proposed 
+delegations; 
+20 
+• consult with state and territory agencies in order to satisfy itself that 
+appropriate processes are in place to collect, store and protect personal 
+information obtained under sections 45AB, 45AF or 45AG; 
+• consider issuing directions under subsection 57(12) of the Therapeutic Goods 
+Act requiring state and territory officers exercising these powers to, for 
+example: 
+− minimise the personal information collected under these powers; 
+− take certain measures to store and protect personal information collected; 
+and 
+− report to the TGA where personal information is collected. 
+ 
+This approach will complement current processes concerning checks and balances 
+concerning the authorisation of state and territory officers and the delegation of 
+powers, including ensuring that those to whom powers are delegated are of an 
+appropriate level of seniority within their respective agency. 
+ 
+Indeed, it is anticipated that these powers will only be delegated to senior 
+investigating officers within relevant health authorities, police forces and other state 
+and territory agencies engaged in the regulation and investigation of vaping goods and 
+therapeutic goods. 
+ 
+Right to freedom of expression 
+ 
+The Bill contains a small number of minor amendments in relation to the advertising 
+and dissemination of generic information relating to vaping goods. Article 19(2) of 
+the ICCPR engages the right to freedom of expression, which extends to any medium, 
+including written and oral communications, the media, public protest, broadcasting 
+and artistic works, and may include commercial advertising. 
+ 
+Article 19(3) of the ICCPR states that public health is a basis on which the right to 
+freedom of expression can be limited. This right may be limited as provided for by 
+law and when necessary for respect of the rights or reputations of others, for the 
+protection of national security, public order, or of public health or morals. Limitations 
+must be prescribed by legislation necessary to achieve the desired purpose and 
+proportionate to the need on which the limitation is predicated. 
+ 
+The Bill makes a small number of amendments to Parts 5-1 and 5-1A of the 
+Therapeutic Goods Act to ensure their effective operation and to provide relevant 
+stakeholders with clarity about prohibitions and regulatory requirements concerning 
+advertising, and the dissemination of generic information, about vaping goods. 
+ 
+In particular, the amendments clarify that Part 5-1 of the Therapeutic Goods Act does 
+not apply to the dissemination of generic information in relation to vaping goods that 
+are therapeutic goods. Part 5-1A, which was introduced by the Vaping Reforms Act, 
+makes specific provision for generic information in the context of vaping goods. It 
+was not intended that “generic information” in relation to vaping goods that are 
+therapeutic goods would be subject to two sets of regulatory requirements and 
+prohibitions under Part 5-1 and Part 5-1A of the Therapeutic Goods Act. 
+ 
+21 
+The Bill also amends section 42DZK of the Therapeutic Goods Act, to make it clear 
+that the Secretary may give directions in writing to a person apparently responsible 
+for, or for causing, the dissemination of generic information about vaping goods to the 
+public, or a section of the public, “if the Secretary is satisfied that it is in the interests 
+of public health or safety to give the person the direction”. This measure is important 
+to ensure that the Secretary may address and preclude a person from disseminating 
+unlawful, and potentially harmful, generic information about vaping goods, for 
+instance in relation to promoting the use of potentially dangerous vapes. 
+ 
+These measures, in particular the proposed amendments to section 42DZK, may 
+engage and limit the right to freedom of expression, which is protected by 
+Article 19(2) of the ICCPR. However, such restrictions are directed to the purpose of 
+reducing the presence and frequency of unlawful advertisement, and dissemination of 
+generic information, about vaping goods. This is a legitimate public health objective 
+to address the public health risks and accordingly the prohibition is necessary to 
+achieve the desired purpose and proportionate to the need on which the limitation is 
+predicated. 
+ 
+The right to freedom of expression is not absolute. It carries special responsibilities 
+and may be restricted on several grounds. Article 19(3) of the ICCPR expressly states 
+that the right to freedom of expression may be subject to limitations necessary for the 
+protection of public health. The limitation (if any) of the right to freedom of 
+expression in the Bill aims to achieve a legitimate objective – the protection of public 
+health – by contributing to efforts to reduce vaping rates and the associated health 
+risks. This is of critical importance in relation to the advertising of vaping goods to 
+youth and young adults by means of retail websites and social media. 
+ 
+As such, the proposed amendments are designed to support a legitimate objective in 
+relation to the protection of public health, and are reasonable, proportionate and 
+necessary to the public health risk posed by vaping. 
+ 
+Right to a fair hearing 
+ 
+The Bill engages the right to a fair hearing under Article 14(1) of the ICCPR, in 
+relation to amendments to the Therapeutic Goods Act to introduce criminal offences 
+and civil penalties relating to a breach of a condition of an exemption, approval or 
+authority in respect of a therapeutic good that is a biological. The right to a fair 
+hearing is a fundamental part of the rule of law and the proper administration of 
+justice. The essential right guarantees equality before courts and tribunals, and, in the 
+determination of criminal charges, or any suit at law, the right to a fair and public 
+hearing before a competent, independent and impartial court or tribunals established 
+by law. 
+ 
+Those charged with a criminal offence have the rights set out in Articles 14(2) to (7), 
+including the presumption of innocence and the guarantees set out in Article 14(2). 
+The Bill engages this right and at the same time ensures that a defendant is provided 
+with a right to a fair hearing before the relevant court, whether under an offence 
+provision or a civil penalty provision. No provision relating to any of these offences 
+seeks to displace or modify defendants’ fair hearing rights under Article 14. 
+ 
+22 
+The amendments to the Therapeutic Goods Act include the introduction of new 
+sections 32CP and 32CQ, which set out criminal offences and a civil penalty 
+provision for the breach of a condition of an exemption, approval or authority in 
+respect of the requirement for a biological to be entered in the Australian Register of 
+Therapeutic Goods. Such mechanisms include, for instance, exemptions for 
+biologicals supplied under certain kinds of clinical trials, and approvals for health 
+practitioners to supply specified biologicals to their patients. 
+ 
+New section 32CP includes fault-based offences and a strict liability offence for an act 
+or omission that breaches such a condition. These include an offence for a breach that 
+has resulted in, will result in or is likely to result in harm or injury to any person (or, 
+in certain circumstances, has caused, will cause or is likely to cause a serious risk to 
+public health) with a maximum penalty of imprisonment for 5 years or 4,000 penalty 
+units or both, an offence without an aggravating element with a maximum penalty of 
+imprisonment for 12 months or 1,000 penalty units or both, and a strict liability 
+offence with a maximum penalty of 100 penalty units. 
+ 
+New section 32CQ sets out a corresponding civil penalty for the same conduct, with a 
+maximum penalty of 5,000 penalty units for an individual and 50,000 penalty units for 
+a body corporate. 
+ 
+The Commonwealth will decide in each case whether to prosecute a person for a 
+fault-based or strict liability offence, or whether to bring proceedings for a civil 
+penalty order. Division 2 of Part 5A-1 of Chapter 5A of the Therapeutic Goods Act 
+places restrictions on what kinds of proceedings can be brought against persons who 
+are alleged to have contravened the Therapeutic Goods Act. These limitations broadly 
+mirror those seen in Division 3 of Part 4 of the Regulatory Powers Act. 
+ 
+The provision in the Therapeutic Goods Act relating to bringing criminal proceedings 
+after civil penalty orders have been issued against a person is more restrictive than the 
+provision that regulates the same situation in the Regulatory Powers Act. The 
+limitations imposed by Division 2 of Part 5A-1 of Chapter 5A of the Therapeutic 
+Goods Act will apply to the new offences and civil penalty provisions introduced by 
+the Bill. 
+ 
+Most relevantly: 
+ 
+• section 42YF provides that the Federal Court must not make a pecuniary 
+penalty order against a person for a contravention of a civil penalty provision 
+if the person has been convicted of an offence constituted by conduct that is 
+substantially the same as the conduct constituting the contravention; 
+ 
+• section 42YG operates to stay civil proceedings if criminal proceedings 
+commence or have commenced and relate to the same, or substantially the 
+same, conduct. This is to prevent any information that arises during criminal 
+proceedings prejudicing civil proceedings. If the criminal proceedings result in 
+a conviction, civil proceedings related to the same, or substantially the same, 
+conduct will be dismissed. Civil proceedings may resume if the person is not 
+convicted of the offence; 
+ 
+23 
+• section 42YH prevents criminal proceedings being brought against a person 
+for conduct that is substantially the same as conduct constituting a 
+contravention of a civil penalty provision if a pecuniary penalty order has been 
+made against the person in respect of that conduct; and 
+ 
+• section 42YI provides that evidence given by an individual during proceedings 
+for a civil penalty order cannot be used in any criminal proceedings against the 
+same individual relating to the same conduct. This ensures that information or 
+documents produced during civil proceedings are not relied upon to support 
+subsequent criminal proceedings, unless those proceedings are criminal 
+proceedings relating to falsifying evidence in civil proceedings. While it is 
+appropriate to allow criminal proceedings after civil proceedings have ended, 
+given the overriding importance of the criminal justice system, criminal 
+proceedings not relating to the falsity of evidence must rely on evidence 
+gathered during independent investigations, not evidence from prior civil 
+proceedings. 
+ 
+The Bill introduces, alongside the new criminal sanctions, a civil penalty provision for 
+an act or omission that breaches a condition of an exemption, approval or authority in 
+relation to a biological. A civil penalty is a punitive sanction of a financial nature and 
+provisions imposing civil penalties do not specify aggravating elements and fault 
+elements. The penalties are imposed through civil court proceedings rather than 
+through the criminal prosecution process. A civil penalty takes the form of a monetary 
+penalty only and does not result in any criminal conviction. 
+ 
+A civil penalty is more appropriate to enable responsible persons to be fined for 
+breaches of the Therapeutic Goods Act where other sanctions, such as criminal 
+prosecution, may not be as effective or appropriate in the circumstances. The civil 
+penalty regime is also intended to act as a deterrent to behavior that breaches 
+regulatory requirements, and also to act as an incentive for persons to establish 
+systems designed to avoid breaches of regulatory requirements. In these ways, the 
+civil penalty scheme is intended to prevent instances where public health and safety 
+is, or could be, placed in jeopardy. 
+ 
+The focus of a civil penalty scheme is generally on the regulation of commercial 
+activity. The inclusion of a civil penalty regime is proposed to strengthen enforcement 
+options to deter non-compliance with regulatory requirements by persons whose main 
+objective is monetary profit. 
+ 
+The levels of these penalties have been set having regard not just in relation to the 
+significant potential impact on the health of patients who may need to use an 
+unapproved biological, but also to deter the risk of perpetrators standing to make 
+financial gain from dealing with unlawful and potentially unsafe biologicals. The 
+potential monetary benefit of unlawful dealings with vaping goods is significant. The 
+objective is, for the benefit of good health outcomes for consumers, to incentivise 
+those who have the most to gain by breaching the Therapeutic Goods Act to comply 
+with regulatory requirements. 
+ 
+Prescribing conduct that is subject to a civil penalty could engage criminal process 
+rights if the imposition of civil penalties is classified as ‘criminal’ under international 
+24 
+human rights law. Guidance Note 2: Offence provisions, civil penalties and human 
+rights (December 2014), which is published by the Parliamentary Joint Committee on 
+Human Rights, states that civil penalty provisions may engage criminal process rights 
+under Articles 14 and 15 of the ICCPR, regardless of the distinction between criminal 
+and civil penalties in domestic law. 
+ 
+When a provision imposes a civil penalty, an assessment is required as to whether it 
+amounts to a ‘criminal’ penalty for the purposes of the ICCPR. Determining whether 
+penalties could be criminal under international human rights law requires 
+consideration of the classification of the penalty provisions under Australian domestic 
+law, the nature and purpose of the penalties, and the severity of the penalties. 
+ 
+New section 32CQ is expressly classified as a civil penalty for the purposes of 
+Australian domestic law, and will not impose criminal liability. For several reasons, 
+this civil penalty provision is unlikely to be considered criminal for the purposes of 
+human rights. These include that it is not classified or identified as criminal under the 
+Therapeutic Goods Act. Rather, it functions as an alternative to criminal prosecution, 
+and does not carry a sanction for imprisonment for non-payment. Further, a finding of 
+breach in connection with section 32CQ will not lead to the creation of a criminal 
+record. Section 32CQ forms part of an enforcement regime to incentivise those who 
+may otherwise seek to gain by not complying with conditions, to comply for the 
+benefit of public health. As such, the criminal process rights under Articles 14 and 15 
+of the ICCPR are unlikely to apply. 
+ 
+The civil penalty provisions in the Bill are principally intended to provide an effective 
+deterrent to non-compliance, and to reflect the serious potential impact on public 
+health of non-compliance. Prosecution of a person for contravention of a civil penalty 
+provision will generally only be considered after other available compliance measures 
+have been considered, for instance the giving of an infringement notice. 
+ 
+The maximum penalties under new section 32CQ are commensurate to the public 
+health risks associated with the use of unapproved biologicals, which have not been 
+the subject of pre-market scrutiny by the TGA, in relation to which a condition of the 
+terms of their exemption, approval or authority has been breached. This civil penalty 
+is not directed to members of the public in general but only to those in relation to 
+whom an exemption, approval or authority applies, for instance a clinical trial 
+sponsor. The maximum penalty levels are consistent with the equivalent civil 
+penalties in the Therapeutic Goods Act for breaching a condition of an exemption, 
+approval or authority in respect of a medicine or device (sections 22AA and 41MNA 
+refer). 
+ 
+For the reasons outlined above, the civil penalty in new section 32CQ is appropriately 
+classified as a civil penalty and not a criminal measure for the purposes of human 
+rights law. Further, a person who is the subject of a civil penalty proceeding has a 
+right to a fair hearing before a competent, independent, and impartial court as 
+provided for under the current Part 5A-1 (civil penalties) under Chapter 5A of the 
+Therapeutic Goods Act, which supports compatibility with the right to a fair hearing 
+under Article 14(1) of the ICCPR. 
+ 
+25 
+The right to the presumption of innocence under Article 14(2) 
+ 
+Article 14(2) of the ICCPR provides that everyone charged with a criminal offence 
+shall have the right to be presumed innocent until proven guilty according to law. The 
+right to presumption of innocence is also a fundamental common law principle. This 
+right is engaged in relation to the introduction of a strict liability offence in the 
+Therapeutic Goods Act for a breach of an exemption, approval or authority involving 
+a biological (new subsection 32CP(3)) by Part 7 of Schedule 2 to the Bill. 
+ 
+Strict liability offences can be considered a limitation of the presumption of innocence 
+because the defendant can be found guilty without the prosecution being required to 
+prove fault. 
+ 
+When strict liability applies to an offence, the prosecution is only required to prove 
+the physical elements of an offence, not the fault elements, beyond reasonable doubt 
+for the defendant to be found guilty. The defence of honest and reasonable mistake of 
+fact is available to the defendant (see section 9.2 of the Criminal Code). 
+ 
+The inclusion of a strict liability offence at new subsection 32CP(3) for a breach of an 
+exemption, approval or authority in relation to a biological is a purposeful deterrence 
+measure. A requirement for the prosecution to prove the existence of a fault element, 
+such as intention or recklessness, would not adequately protect the public from the 
+supply, and advertising for supply, of biologicals in such circumstances, particularly if 
+the breach involves non-compliance with a condition designed to ensure the safety of 
+the biological for patients. 
+ 
+The strict liability provision in subsection 32CP(3) is compatible with Article 14(2) of 
+the ICCPR, as it pursues a legitimate objective in acting as a deterrent to behaviour 
+that may otherwise represent a risk to patients, in relation to potentially unsafe 
+biologicals, and as such the provision is reasonable and proportionate in achieving 
+that outcome. Where the prosecution is satisfied that the defendant is culpable and the 
+relevant fault elements such as intention and recklessness can be established, the 
+normal fault-based offence could be pursued. 
+ 
+Measures under the Tobacco Act  
+ 
+The measures under the Tobacco Act engage the following human rights: 
+ 
+• right to health under Article 12 of the ICESCR; 
+ 
+• right to life under Article 6 of the ICCPR;  
+ 
+• right to freedom of expression under Article 19(2) of the ICCPR; 
+ 
+• right to a fair trial and fair hearing rights under Article 14(1) of the 
+ICCPR; and 
+ 
+• right to a presumption of innocence under Article 14(2) of the ICCPR. 
+ 
+26 
+Right to health 
+ 
+Article 12(2)(c) of the ICESCR requires States Parties to take steps to achieve the full 
+realisation of the right of everyone to the enjoyment of the highest attainable standard 
+of physical and mental health, including those steps necessary for the prevention, 
+treatment and control of diseases. The Committee on Economic, Social and Cultural 
+Rights considers that this “requires the establishment of prevention and education 
+programmes for behaviour related health-concerns…and the promotion of social 
+determinants of good health”.  
+ 
+The Tobacco Act, including the amendments, promotes the right to health by aiming, 
+through the achievement of the Tobacco Act’s objectives, and as part of a 
+comprehensive range of tobacco control measures, to contribute to efforts to reduce 
+smoking rates and thereby reduce the significant health, social and economic effects 
+of tobacco use.  
+ 
+Right to life 
+ 
+The measures contained in the Tobacco Act, supported by the Regulations, promote 
+the right to life by seeking to reduce the incidence of smoking and vaping. These 
+amendments are consistent with ensuring the effective operation of the Tobacco Act.  
+ 
+Tobacco use causes more deaths than any other behavioural risk factor. Up to two 
+thirds of deaths in tobacco smokers can be attributed to smoking, and long term‑ 
+smokers die an average of 10 years earlier than non-smokers. Exposure to 
+second‑hand smoke is also a cause of preventable death and disability in adults and 
+children. Tobacco use and exposure among pregnant people and their babies is one of 
+the most prevalent preventable causes of infant death and illness and of adverse 
+pregnancy outcomes including preterm birth and still‑birth.￼ 
+ 
+Tobacco smoking by youth and young adults has immediate adverse health 
+consequences and accelerates the development of chronic diseases across the full life 
+course. It can lead to nicotine addiction that causes young people to continue smoking 
+for longer, causing increased physical damage. In addition, quitting smoking at any 
+age reduces the risk of premature death and improves quality of life. 
+ 
+The Tobacco Act, including the amendments, promote the right to life by seeking, 
+through the achievement of the Tobacco Act’s objectives and the intended effect of 
+the measures, to deter the uptake of smoking as well as vaping and the use of 
+e-cigarette products, and to encourage people who smoke and vape to quit. 
+ 
+Right to freedom of expression 
+ 
+The restrictions in relation to advertising and sponsorship, provided for by the 
+Tobacco Act and Therapeutic Goods Act may engage Article 19 of the ICCPR. 
+Article 19(2) of the ICCPR engages the right to freedom of expression, which extends 
+to any medium, including written and oral communications, the media, public protest, 
+broadcasting and artistic works, and may include commercial advertising. 
+ 
+27 
+Article 19(3)(b) of the ICCPR states that public health is a basis on which the right to 
+freedom of expression can be limited. This right may be limited as provided for by 
+law and when necessary for respect of the rights or reputations of others, for the 
+protection of national security, public order, or of public health or morals. Limitations 
+must be prescribed by legislation necessary to achieve the desired purpose and 
+proportionate to the need on which the limitation is predicated.   
+ 
+These amendments engage and may limit the right to freedom of expression, which is 
+protected by Article 19(2) of the ICCPR.   
+ 
+Reasonable, necessary and proportionate amendments   
+ 
+To the extent that the amendments relating to sponsorship limit freedom of expression 
+it is for the legitimate objective of the protection of public health. The amendments 
+expand the application of the provisions to include corporations in addition to 
+individuals. This was the original intended application of the prohibition on the basis 
+that the conduct should be widely prohibited.  
+ 
+Advertising and sponsorship bans are an effective means to reduce the prevalence and 
+initiation of tobacco use.2 The ban includes a broad range of media platforms, 
+extending to social media for example, and other forms of advertising, promotion and 
+sponsorship. It is important that the public’s exposure to advertising and promotion of 
+tobacco products which pose a risk to population health is limited. The amendments 
+to expand the application of the prohibition to corporations are reasonable.  
+ 
+The expanded application of the sponsorship prohibition is proportionate to the public 
+health risk posed.  
+ 
+The amendments to expand the application of the prohibition limit the right to 
+freedom of expression only to the extent necessary to achieve the objectives of the 
+measures, specifically with the intention of discouraging the use of tobacco and 
+e-cigarette- products and to protect and improve public health. It follows that the 
+measures are proportionate and do not impinge on freedom of expression to a greater 
+degree than is necessary. 
+ 
+Australia’s history of progressively more comprehensive and stringent tobacco 
+regulation is consistent with international best practice as well as steps to combat the 
+global health epidemic posed by tobacco smoking through implementation of the 
+WHO FCTC.    
+ 
+The WHO FCTC imposes a comprehensive set of obligations for Parties to implement 
+and manage tobacco control programmes. Article 13(2) obliges each Party “in 
+accordance with its constitution or constitutional principles, [to] undertake a 
+comprehensive ban of all tobacco advertising, promotion and sponsorship.” 
+ 
+Under the WHO FCTC, tobacco advertising and promotion means any form of 
+commercial communication, recommendation or action with the aim, effect or likely 
+effect of promoting a tobacco product or tobacco use either directly or indirectly. It 
+                                                 
+2 Levy DT, Chaloupka F & Gitchell J. (2004) The effects of tobacco control policies on smoking rates: a tobacco control 
+scorecard. Journal of Public Health Management & Practice, 10(4), 338–53. doi:10.1097/00124784-200407000-00011. 
+28 
+follows that the amendments in relation to the prohibition on tobacco advertising and 
+sponsorship are necessary, consistent with Australia’s commitment to implementing 
+the WHO FCTC and that there is not less restrictive means of achieving the desired 
+ends.  
+ 
+Similarly, equivalent advertising and sponsorship prohibitions applied to e-cigarettes 
+are proportionate to the public health risk posed by e-cigarettes. The amendments 
+harmonise the interaction with the Therapeutic Goods Act vaping goods advertising 
+provisions.   
+ 
+It follows that the amendments are reasonable given the international precedents, 
+extensive public consultation and evidence base on which they have been developed. 
+ 
+Right to a fair trial and fair hearing rights and right to a presumption of innocence 
+ 
+The amendments engage the right to a fair trial and fair hearing rights along with the 
+right to a presumption of innocence because they affect offence provisions. In 
+particular, this is the case for the phase in and out provisions for tobacco product 
+requirements and the amendment to expand the application of the sponsorship 
+prohibition to corporations. The amendments also clarify the interaction between the 
+Tobacco Act and the Therapeutic Goods Act prohibition on advertising of vaping 
+goods.  
+ 
+The Tobacco Act triggers the operation of the Regulatory Powers Act. The safeguards 
+of Part 4 of the Regulatory Powers Act apply to ensure that fair process is applied, 
+particularly where there is the potential for both criminal and civil proceedings.   
+ 
+To the extent that the amendments engage with the right to a fair trial and fair hearing 
+rights and also the right to a presumption of innocence, any limitations on these rights 
+are reasonable, necessary and proportionate. The amendments are reasonable because 
+they seek to clarify the application of the law and provide an effective regulatory 
+regime. The amendments are necessary and proportionate as they are in furtherance of 
+the important objects of the Tobacco Act. 
+ 
+Conclusion 
+ 
+The Bill is compatible with human rights because it promotes and supports the right to 
+health and other rights and, to the extent that it limits other rights, the limitations are 
+reasonable, necessary and proportionate. 
+ 
+ 
+The Hon Mark Butler MP, Minister for Health and Aged Care
+29 
+HEALTH LEGISLATION AMENDMENT (IMPROVED MEDICARE 
+INTEGRITY AND OTHER MEASURES) BILL 2024 
+ 
+NOTES ON CLAUSES 
+ 
+Clause 1 – Short Title 
+ 
+This clause provides for the short title of the Act, once enacted, to be the Health 
+Legislation Amendment (Improved Medicare Integrity and Other Measures) Act 2024. 
+ 
+Clause 2 – Commencement 
+ 
+This clause sets out when the Bill measures commence. Sections 1 to 3 commence on 
+the day of Royal Assent. The measures in Schedule 1 have various commencement 
+arrangements, and the measures in Schedules 2 and 3 commence the day after Royal 
+Assent.  
+ 
+Clause 3 – Schedules 
+ 
+This clause provides that each Act that is specified in a Schedule to this Bill is 
+amended or repealed as set out in the applicable items in the Schedule concerned, and 
+any other item has effect according to its terms. 
+ 
+This is a technical provision which gives operational effect to the amendments 
+contained in the Schedules. 
+ 
+Schedule 1 amends the Dental Benefits Act 2008, Health Insurance Act 1973, 
+Human Services (Medicare) Act 1973 and National Health Act 1953. 
+ 
+Schedule 2 amends the Therapeutic Goods Act 1989. 
+ 
+Schedule 3 amends the Public Health (Tobacco and Other Products) Act 2023. 
+  
+30 
+SCHEDULE 1 — MEDICARE INTEGRITY AMENDMENTS 
+ 
+Part 1—Amendments relating to timeframe for bulk-billed claims 
+ 
+Division 1—Amendments commencing the day after royal assent 
+ 
+Dental Benefits Act 2008 
+ 
+Item 1 – Subsection 15(2) 
+ 
+This item changes the timeframe for claims relating to assigned dental benefits to be 
+made from 2 years to 1 year unless the Chief Executive Medicare has allowed a 
+longer period. 
+ 
+An assigned dental benefit involves a person transferring their right to the payment of 
+a dental benefit to a provider who accepts the assignment as full payment for the 
+expenses incurred in respect of a dental service. This practice is commonly known as 
+“bulk billing”. When a service is bulk-billed, the dental provider is not allowed to 
+charge the person an additional fee for the dental service. 
+ 
+Subsection 15(2) currently allows a claim for an assigned dental benefit to be made up 
+to 2 years after a service is rendered. 
+ 
+The legislation currently enables a person to make an application for a longer period 
+to make a claim for dental benefit and this provision will not change. 
+ 
+This change is likely to have minimal impact on patients and dental providers as most 
+claims for dental benefit are already made within 1 year. 
+ 
+Item 2 – Application provision 
+ 
+This item provides that these amendments apply to claims for a dental benefit in 
+respect of a dental service rendered on or after the commencement of this Division. 
+ 
+Division 2—Contingent amendments if amendments relating to assignment of 
+medicare benefits have not yet commenced 
+ 
+Health Insurance Act 1973 
+ 
+Item 3 – Paragraph 20B(2)(b) 
+ 
+This item changes the timeframe for making claims relating to some assigned 
+medicare benefits from 2 years to 1 year unless the Minister has allowed a longer 
+period. 
+ 
+An assigned medicare benefit involves a person transferring their right to the payment 
+of a medicare benefit to a practitioner who accepts the assignment as full payment for 
+the expenses incurred in respect of a service. This practice is commonly known as 
+"bulk billing”. When a service is ”bulk-billed”, the practitioner is not allowed to 
+charge the person an additional fee for the relevant service. 
+31 
+ 
+Section 20B(2) currently allows a claim for an assigned medicare benefit to be made 
+up to 2 years after a professional service is rendered. 
+ 
+Changing the timeframe for making of these claims to 1 year will improve the 
+integrity of payments. 
+ 
+The change is likely to have minimal impact on patients and practitioners as most 
+claims for medicare benefit are already made within 1 year. The legislation currently 
+enables a person to make an application for a longer period to make a claim for 
+medicare benefit and this provision will not change. 
+ 
+The changes will not affect claims for benefits assigned or taken to have been 
+assigned under subsection 20A(2A), which may continue to be made within 2 years 
+following the date of service. 
+ 
+Item 4 – Subsection 20B(3A) 
+ 
+This item refers to the discretion of the Minister to consider applications for claims 
+relating to assigned medicare benefits to be made outside the usual timeframe. 
+ 
+This item will remove the reference to the current 2-year period for a claim to be 
+made because this timeframe will now be one year unless the Minister has allowed a 
+longer period. 
+ 
+Item 5 – Subsection 20B(3B) 
+ 
+This item changes the terminology in subsection 20B(3B) to refer to the “making” 
+rather than the “lodging” of claims. This is consistent with the terminology used in 
+subsection 20B(3A). 
+ 
+Item 6 – Application provision 
+ 
+This item provides that these amendments apply to claims for medicare benefits in 
+respect of professional services rendered on or after the commencement of this 
+Division. 
+ 
+Division 3—Amendments commencing when Division 1 and amendments 
+relating to assignment of medicare benefits have both commenced 
+ 
+Health Insurance Act 1973 
+ 
+Item 7 – Paragraph 20B(1)(c) 
+ 
+This item repeals and replaces paragraph 20B(1)(c) to change the timeframe for 
+claims relating to bulk billing assignments from 2 years to one year unless the 
+Minister has allowed a longer period under subsection (3A). 
+ 
+The Health Legislation Amendment (Assignment of Medicare Benefits) Act 2024 will 
+commence 18 months after Royal Assent unless proclaimed first. This Act will amend 
+32 
+section 20A to set out differences between bulk billing assignments of benefits, and 
+simplified billing assignments of benefits. 
+ 
+Simplified billing assignments remove the need for an assignment between an eligible 
+person and a private health insurer, approved billing agent or other person and enables 
+3 methods by which Medicare benefits can be taken to be pre-assigned. 
+ 
+The change in timeframe for the making of claims only applies to bulk billing 
+assignments of benefits not simplified billing assignments of benefits. This item will 
+ensure that the changes only apply to bulk billing assignments after the 
+commencement of the Health Legislation Amendment (Assignment of Medicare 
+Benefits) Act 2024. The timeframe for claims involving simplified billing assignments 
+will remain 2 years unless the Minister has allowed a longer period under 
+subsection(3A). 
+ 
+Item 8 – Application provision 
+ 
+This item provides that these amendments apply to claims for Medicare benefits in 
+respect of professional services rendered on or after the commencement of this 
+Division. 
+ 
+Part 2—Amendments relating to criminal offences 
+ 
+Human Services (Medicare) Act 1973 
+ 
+Item 9 – Section 3A 
+ 
+This item will replace the section and the multiple definitions of “relevant offence” 
+with a single uniform definition. This will enable a broader and more consistent use of 
+the investigative powers contained in Part IID of the Human Services (Medicare) Act. 
+ 
+The investigative powers in Part IID include notices to produce information or 
+documents (Division 2), searches of premises with the occupier’s consent 
+(Division 3), and search and seizure powers under a warrant (Division 4). 
+ 
+An “authorised officer” (appointed by signed instrument) can exercise these 
+investigative powers. To exercise the powers, the authorised officer must have a 
+reasonable suspicion that a ‘relevant offence’ is being, or has been, committed. 
+ 
+Section 3A provides that “relevant offence” means something different for each of 
+Divisions 2 and 3 and the remainder of the legislation, with each definition 
+incorporating a specific list of offences. Therefore, whether an authorised officer can 
+exercise a power in relation to a suspected offence depends on whether that offence is 
+a “relevant offence” for the purposes of that power. 
+ 
+In 1994, when the section was introduced, the separate definitions were intended to 
+make a distinction between “those offences involving fraud which might result in a 
+provider being excluded from the Medicare Program” and all other Medicare-related 
+fraud offences. Amendments arising from changes to other legislation (such as the 
+Crimes Act 1914 (Crimes Act) and Criminal Code) have not been applied consistently 
+33 
+to this section. This has resulted in arbitrary gaps in the ability to exercise 
+investigative powers. 
+ 
+Pharmaceutical Benefits Scheme 
+The investigative powers are much more limited in relation to the Pharmaceutical 
+Benefits Scheme (PBS) than they are in respect of Medicare. For example: 
+ 
+• the power to execute a search warrant applies to any offence in the Health 
+Insurance Act, but only to offences in Part VII of the National Health Act; 
+  
+• the power to issue a coercive notice, or to search a premises with consent, only 
+applies to very limited provision (subsections 84L(1) and (2) and section 103) 
+of the National Health Act; and 
+ 
+• an authorised officer cannot investigate Criminal Code offences relating to 
+suspected PBS fraud. 
+ 
+Further, Criminal Code offences are only available where the suspected fraud relates 
+to a dental service, professional service, indemnity scheme payment or 
+Commonwealth contribution. 
+ 
+In practice this means that an authorised officer can issue a coercive notice or search a 
+premises with consent if a suspected Criminal Code offence (for example, obtain 
+financial advantage by deception contrary to section 134.2(1)) relates to Medicare 
+claims. However, if the potential fraud relates to PBS claims, the authorised officer 
+cannot investigate an offence contrary to section 134.2(1) of the Criminal Code. 
+ 
+These limitations significantly impact the Department’s ability to appropriately 
+respond to high value potential PBS fraud matters. 
+ 
+Criminal Code offences 
+There is currently no power in Part IID to execute a search warrant or seize material 
+in relation to suspected Criminal Code fraud offences. Instead, the only powers that 
+may be used in relation to suspected Criminal Code offences are: 
+ 
+• the issue of a notice to produce (akin to a coercive notice power and cannot 
+produce admissible evidence for use in any subsequent prosecution); and 
+ 
+• the power to search a premises with the occupier’s consent only, and only in 
+relation to suspected offending that has occurred within the last 60 days – 
+which is such a narrow window that this power can rarely be used. 
+ 
+This is resulting in practical difficulties. In particular, Criminal Code offences cannot 
+be prosecuted where evidence has been seized using a search warrant under the 
+Human Services (Medicare) Act. 
+ 
+In cases where Criminal Code charges are anticipated, officers must arrange for a 
+warrant under section 3E of the Crimes Act (in consultation with the Australian 
+Federal Police (AFP)). When this has not been anticipated in advance, evidence 
+34 
+obtained via a warrant under the Human Services (Medicare) Act must be returned 
+and re‑seized under a Crimes Act warrant. 
+ 
+These difficulties are confusing and burdensome. Additionally, the AFP’s resource 
+constraints and competing law enforcement priorities can have a significant adverse 
+impact on timeframes for investigation and eventual prosecution of Medicare and PBS 
+fraud cases. 
+ 
+These gaps and inconsistencies may result in situations where a prosecution using 
+Criminal Code offences is not possible, or where less serious offences in the health 
+legislation are charged instead. 
+ 
+These limitations significantly impact the ability to appropriately respond to high 
+value potential PBS fraud matters to protect the integrity and sustainability of health 
+benefits schemes. 
+ 
+The single uniform definition of relevant offence will enable the investigative powers 
+in Part IID to be used consistently in respect of health benefits schemes and in relation 
+to a broader range of Criminal Code offences. 
+ 
+Specifically, a single overarching definition will enable the investigation of an offence 
+that relates to: 
+• claims for payment in respect of a professional service, dental service or the 
+supply or purported supply of a pharmaceutical benefit; 
+• an indemnity scheme payment; or 
+• a Commonwealth contribution (within the meaning of the Midwife 
+Professional Indemnity (Commonwealth Contribution) Scheme Act 2010). 
+  
+A single definition of relevant offence will also enable the investigation of an offence 
+against the Divisions of the Criminal Code relating to fraudulent conduct, false or 
+misleading statements, bribery and related offences, forgery and related offences, 
+identity fraud and money laundering. 
+ 
+These changes will allow investigative powers to be used consistently and effectively 
+across all health schemes, including Medicare and the Pharmaceutical Benefits 
+Scheme. They will also enable the powers to be used in the investigation of Criminal 
+Code offences. 
+ 
+Criminal Code offences are appropriate in serious cases, involving significant fraud 
+over extended periods. This change will also remove the need for AFP assistance with 
+executing warrants for suspected Criminal Code offences and improve the powers to 
+investigate suspected offending for all health schemes. 
+ 
+Item 10 – Subsection 8U(1) 
+ 
+This item will amend section 8U to remove the reference to a suspected offence being 
+committed “within the previous 60 days”. 
+ 
+35 
+Currently, the power to search a premises with consent is subject to a 60-day 
+timeframe. That is, the suspected offending must have taken place within the last 60 
+days. 
+ 
+This is a short timeframe which places a significant impediment on conducting 
+effective investigations. This is because in some cases 60 days is not long enough for 
+fraud to be detected or reported, and for an investigation to be commenced. Further, 
+60 days does not allow a long enough period for an authorised officer to have the 
+ability or opportunity to attend at the premises. This time limit does not apply in 
+relation to Divisions 2 or 4 of the legislation and impacts an authorised officer’s 
+ability to enter a premises with consent for suspected past offending. 
+ 
+Removing the time limitation will make this provision consistent with section 8P, 
+relating to the issue of notice, and section 8Y relating to search warrants. These 
+provisions have no such time limitation on suspected offending. 
+ 
+This expansion of the timeframe is reasonable and proportionate for the purpose of 
+being able to enforce the relevant offences, noting the practical reality of time delays 
+in reporting and detecting fraud and commencing investigations. 
+ 
+Item 11 – Paragraph 8ZG(3)(d) 
+ 
+This item will amend section 8ZG to introduce an option for data copied at warrant 
+premises to be returned to the occupier of the premises at that time, instead of having 
+to be destroyed. 
+ 
+Currently some potential evidential material, including copies of documents in 
+electronic form, is required to be destroyed (rather than returned) if the reason for 
+copying the data no longer exists or a decision has been made not to use the data in 
+evidence. 
+ 
+If an authorised officer (investigator) suspects on reasonable grounds that the data 
+accessed by operating that electronic equipment constitutes evidential material, they 
+may copy that data to another device. However, any copy of that data must be 
+destroyed if the reason for copying the data no longer exists or a decision has been 
+made not to use the data in evidence. Therefore, the reproduction of the material 
+under the control of investigators must be destroyed. 
+ 
+This results in the destruction of potentially highly relevant evidence, without an 
+option to return the material and re-seize it under section 3E of the Crimes Act. In 
+some circumstances, even if the data still exists at the warrant premises, a defendant 
+may have removed or concealed it between the copy being destroyed and a Crimes 
+Act warrant being executed. 
+ 
+This means that in some situations, electronic evidence may be destroyed rather than 
+returned and re-seized. This can mean losing valuable evidence and potentially 
+undermining an ongoing investigation. If copied data is not to be used as evidence, it 
+can also result in an occupier of the premises having no opportunity to have copied 
+data returned. 
+ 
+36 
+Amended paragraph 8ZG(3)(d) will require the disposal of the copied data but will 
+enable this to take place via either return or destruction. In other words, the disposal 
+can involve either the return of the reproduction to a person who is an occupier of the 
+premises or the destruction of the reproduction. 
+ 
+This is consistent with the return of other evidential material that is currently 
+permissible under section 8ZM, as well as with the Attorney-General’s Department 
+Guide to Framing Commonwealth Offences, Infringement Notices and Enforcement 
+Powers. This generally refers to the return of seized material, although in the context 
+of original material rather than reproductions. In circumstances where the material is 
+copied, and the current situation only allows for destruction, there is no need to 
+implement a time limit for return. 
+ 
+Under amended paragraph 8ZG(3)(d), the copied data could either be returned to a 
+person who is the occupier of the premises at that time, or destroyed. There is no 
+presumption given to either return or destruction as the circumstances of copied data 
+means that there is not necessarily an owner in the same way there would be for 
+original material seized, and it may also not immediately be clear whether the original 
+data is still available. As a result, both options need to be available to ensure the 
+copied data is appropriately dealt with. 
+ 
+Item 12 – Paragraph 8ZGA(3)(d) 
+ 
+This item will amend section 8ZGA to introduce an option for data copied from 
+electronic equipment found at warrant premises to be returned to the occupier of the 
+premises at that time, instead of having to be destroyed. 
+ 
+Currently some potential evidential material, including copies of documents in 
+electronic form, is required to be destroyed (rather than returned) if the reason for 
+copying the data no longer exists or a decision has been made not to use the data in 
+evidence. 
+ 
+If an investigator suspects on reasonable grounds that data accessed by operating 
+electronic equipment found at the warrant premises constitutes evidential material, 
+they may copy that data to another device. However, any copy of that data must be 
+destroyed if the reason for copying the data no longer exists or a decision has been 
+made not to use the data in evidence. Therefore, the reproduction of the material 
+under the control of investigators must be destroyed. 
+ 
+This results in the destruction of potentially highly relevant evidence, without an 
+option to return the material and re-seize it under section 3E of the Crimes Act. In 
+some circumstances, even if the data still exists at the warrant premises, a defendant 
+may have removed or concealed it between the copy being destroyed and a Crimes 
+Act warrant being executed. 
+ 
+This means that in some situations, electronic evidence may be destroyed rather than 
+returned and re-seized. This can mean losing valuable evidence and potentially 
+undermining an ongoing investigation. If copied data is not to be used as evidence, it 
+can also result in an occupier of the premises having no opportunity to have copied 
+data returned. 
+37 
+ 
+Amended paragraph 8ZGA(3)(d) will require the disposal of the copied data. 
+However, this disposal will involve either return or destruction. In other words, the 
+disposal can involve either the return of the reproduction to a person who is an 
+occupier of the premises or the destruction of the reproduction. 
+ 
+This is consistent with the return of other evidential material that is currently 
+permissible under section 8ZM, as well as with the Attorney-General’s Department 
+Guide to Framing Commonwealth Offences, Infringement Notices and Enforcement 
+Powers. This generally refers to the return of seized material, although in the context 
+of original material rather than reproductions. In circumstances where the material is 
+copied, and the current situation only allows for destruction, there is no need to 
+implement a time limit for return. 
+ 
+Under amended paragraph 8ZGA(3)(d), the copied data could either be returned to a 
+person who is the occupier of the premises at that time, or destroyed. There is no 
+presumption given to either return or destruction as the circumstances of copied data 
+means that there is not necessarily an owner in the same way there would be for 
+original material seized, and it may also not immediately be clear whether the original 
+data is still available. As a result, both options need to be available to ensure the 
+copied data is appropriately dealt with. 
+ 
+Item 13 – Application provisions  
+ 
+The amendments to the definition of relevant offence will apply to the investigation of 
+conduct (including an omission) which relates to a relevant offence, whether the 
+conduct occurs before, on or after commencement. This will enable investigative 
+powers to be used to investigate conduct that relates to a relevant offence, regardless 
+of whether that conduct was within the definition of “relevant offence” at the time it 
+took place. 
+ 
+It is important to note, however, that no new offences are being created and the 
+underlying offences themselves are not being changed. As a result, no retrospective 
+criminal liability is created. Instead, the ame
+
+
+
+### Your Response ###
+        
