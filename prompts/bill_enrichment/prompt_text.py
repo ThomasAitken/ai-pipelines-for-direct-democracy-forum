@@ -1,4 +1,4 @@
-
+prompt = """
 Your task is to fill out a number of fields for a user-curated forum page relating to a bill before the Australian parliament. I will shortly give you more information about the bill in question, but first I will cover the background.
 
 This forum page will be hosted on a website called the "Direct Democracy Forum (Australia)". This website is intended to educate the public about the workings of federal politics and inspire critical public engagement with policy. The fields you are tasked with filling out are called "High-level Summary", "Detailed Summary", "Argument For", "Argument Against" and "Categories". Before I delve into more specifics, you should first consult the Direct Democracy Forum website's guidelines on filling out these fields, particularly those related to 'argument'. Here are the relevant links:
@@ -31,6 +31,8 @@ Take particular note of the formatting of the Normative Bases, and of the footno
 Each bill before the Australian parliament has an associated explanatory memo and/or bill digest, usually in PDF format. I have attached one or both of these to the curent request. These documents explain the purpose of the bill, what it seeks to change, and why. You will need to read through them carefully, as they will contain the information you need to fill out the fields described earlier.
 
 For the "Detailed Summary" field and/or the argument fields, you may want to quote from the explanatory memo or bill digest associated with the bill. If you do so, please make sure to attribute and represent them as quotes, e.g. `From the explanatory memo: <blockquote>...</blockquote>`.
+
+Paraphrasing can also be appropriate, in which case you can append something like "[Explanatory Memo page 10]" to the end of the sentence. Just don't cite the source as "OCR" (something I have seen in test outputs).
 
 ## Response Format
 Respond with a JSON object with the following schema:
@@ -80,3 +82,4 @@ The categories field should be a list of up to 3 items chosen from the following
 Do not render the JSON in markdown format, just return a JSON object directly with the above attributes.
 
 ## Your Response
+"""

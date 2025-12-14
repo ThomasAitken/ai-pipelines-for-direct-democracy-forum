@@ -1,5 +1,5 @@
 # AI Pipelines for Direct Democracy Forum
-This repo shows how I generate AI completions for the bill forums on https://directdemocracyforum.com. I have since turned this process into a Celery-orchestrated pipeline that lives inside the main (private) repo. However, I will keep this repo up to date as I change my prompts, or create new AI experiments for the forum.
+This repo is essentially my test-bed for the AI pipelines used on https://directdemocracyforum.com. Right now there is only one such pipeline, the bill "enrichment" workflow, that uses an API call to pre-fill various fields on the forum linked to a newly published bill. In my production application, this is bundled into a Celery-orchestrated pipeline. In this repo, you can see the prompt and API call that I make, and some of the experiments I have done.
 
 ## Installation
 
@@ -16,11 +16,11 @@ uv sync
 source .venv/bin/activate
 ```
 
-3. Get your own API key for OpenAI or one of the other providers, then add it to a `.env` file. Add credit.
+3. Get a Google Gemini API key, then add it to a `.env` file.
 
 ## Usage
 
-The following runs the bill-enrichment pipeline currently:
+The following command currently runs the bill-enrichment pipeline on a large dataset of bills:
 
 ```
 python run.py

@@ -1,127 +1,114 @@
+import argparse
 import csv
 import logging
 import time
 from typing import Iterator
 
-from openai import OpenAI
+import requests
+from requests.adapters import HTTPAdapter, Retry
 
-from config import settings
-from prompts.bill_enrichment import CORE_INSTRUCTIONS, ARGUMENT_GUIDELINES, NORMATIVE_BASES_DIGEST
-from utils import download_text_from_url, get_requests_session
+from client import AIClient, MODEL_NAME
+from prompts.bill_enrichment import EnrichedBill, prompt as bill_enrichment_prompt
 
 logger = logging.getLogger(__name__)
 
-# MODEL_NAME = "gpt-4o-mini"
-MODEL_NAME = "gpt-4o"
-INPUT_FILE_NAME = "bills_before_parliament_for_enrichment.csv"
-
-class AIEnrichmentClient:
-    def __init__(self):
-        self.client = OpenAI(api_key=settings.openai_api_key)
-
-
-    # def generate_bill_summary_completion(self, bill_title: str, bill_info_web_page_contents: list[str]) -> str:
-    #     """
-    #     Send the context (all relevant texts) and instructions to the LLM.
-    #     Returns the model's output.
-    #     """
-    #     # Construct your prompt
-    #     prompt = f"""
-    #     I am going to dump on you the contents of one or two PDFs that relate to a given bill before the Australian parliament. Your task is to summarize the contents of these PDFs in a way that is clear and reasonably detailed. You do not have to include the legislative minutia in your summary, but more so focus on the key points and arguments made in the PDFs. Here is the context for the task:
-
-    #     Title of the bill: {bill_title}
-
-    #     ### PDF Contents ###
-        
-    #     """
+retries = Retry(
+    total=5,
+    backoff_factor=1,
+    status_forcelist=[500, 502, 503, 504],
+    allowed_methods=None,
+    raise_on_redirect=True,
+    raise_on_status=True,
+)
+session = requests.Session()
+session.headers.update(
+    {"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0"}
+)
+adapter = HTTPAdapter(max_retries=retries)
+session.mount("https://", adapter)
 
 
-    def generate_bill_completion(self, bill_title: str, bill_info_web_page_contents: list[str]) -> str:
-        """
-        Send the context (all relevant texts) and instructions to the LLM.
-        Returns the model's output.
-        """
-        bill_info_web_page_contents_str = "\n\n\n".join(bill_info_web_page_contents)[:100000]
+def run_bill_enrichment(
+    input_data_start_idx: int = 0,
+    input_data_end_idx: int | None = None,
+    sleep_between_calls: int = 30,
+):
+    """
+    Run bill enrichment over a slice of the input CSV.
 
-        # Construct your prompt
-        prompt = f"""
-Your task is to fill out a number of fields for a user-curated forum page relating to a bill before the Australian parliament. As I will explain below, some of these fields are argument fields, i.e. an "Argument For" and an "Argument Against" the bill. So let me first give you some information on the guidelines for the argument fields, as this will come in handy for your task:
+    input_data_end_idx may be None to indicate 'to the end'.
+    """
+    input_file_name = "bills_before_parliament_for_enrichment.csv"
 
+    client = AIClient()
+    with open(f"static_data/{input_file_name}", mode='r') as file:
+        csv_dict: Iterator[dict[str, str]] = csv.DictReader(file)
+        rows = list(csv_dict)
+        slice_rows = rows[input_data_start_idx:input_data_end_idx]
+        for idx, row in enumerate(slice_rows):
+            bill_title = row["title"]
+            explanatory_memo_pdf_url=row["explanatory_memo_pdf_url"]
+            bill_digest_pdf_url=row["bill_digest_pdf_url"]
+            memo_resp = session.get(explanatory_memo_pdf_url)
+            if memo_resp.status_code != 200:
+                logger.error(f"Failed to fetch explanatory memo for bill '{bill_title}': HTTP {memo_resp.status_code}")
+                continue
+            pdfs = [memo_resp.content]
+            if bill_digest_pdf_url != "None":
+                digest_resp = session.get(bill_digest_pdf_url)
+                if digest_resp.status_code != 200:
+                    logger.warning(f"Failed to fetch bill digest for bill '{bill_title}': HTTP {digest_resp.status_code}")
+                    continue
+                pdfs.append(digest_resp.content)
 
-#### Argument Guidelines ####
-{ARGUMENT_GUIDELINES}
+            completion = client.generate_content(
+                prompt=bill_enrichment_prompt,
+                pdfs=pdfs,
+                response_schema=EnrichedBill.model_json_schema(),
+                use_url_context=True,
+            )
+            with open(f"completions/bill_enrichment/{MODEL_NAME}/{bill_title.replace(' ', '_')}.txt", "w") as f:
+                f.write(completion)
 
+            if idx < len(slice_rows) - 1:
+                time.sleep(sleep_between_calls)  # Avoid rate limiting
 
-
-#### Normative Bases Digest ####
-{NORMATIVE_BASES_DIGEST}
-
-
-
-
-### Instructions ###
-With the above guidelines in mind, I can now give the instructions for how to fill out the fields of the forum page. Please follow these precisely.
-
-{CORE_INSTRUCTIONS}
-
-
-
-### Information about the Bill ###
-Finally, here is some context about the bill itself. The bill is titled \"{bill_title}\". The below is a dump of one or more PDFs that explains more about the bill. You will need to use this information to fill out the fields:
-
-{bill_info_web_page_contents_str}
-
-
-
-### Your Response ###
-        """
-        f = open("last_prompt.txt", "w")
-        f.write(prompt)
-
-        # Make the API call (OpenAI style)
-        response = self.client.chat.completions.create(
-            model=MODEL_NAME,
-            messages=[
-                {
-                    "role": "system",
-                    "content": "You are a helpful content enrichment assistant."
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            temperature=0.7,
-            # max_tokens=2000,  # Adjust as needed
-        )
-        content = response.choices[0].message.content
-        if not content:
-            raise RuntimeError(f"No content returned from model. Refusal: {response.choices[0].message.refusal}")
-        return content
 
 def main():
-    client = AIEnrichmentClient()
-    session = get_requests_session()
-    with open(f"static_data/{INPUT_FILE_NAME}", mode ='r') as file:    
-        csv_dict: Iterator[dict[str, str]] = csv.DictReader(file)
-        for row in list(csv_dict)[5:]:
-            bill_title = row["title"]
-            bill_info_web_page_contents: list[str] = []
-            if row["explanatory_memo_pdf_url"]:
-                bill_info_web_page_contents.append(download_text_from_url(session, row["explanatory_memo_pdf_url"]))
-            if row["bill_digest_pdf_url"] != "None":
-                bill_info_web_page_contents.append(download_text_from_url(session, row["bill_digest_pdf_url"]))
-            completion = client.generate_bill_completion(
-                bill_title=bill_title,
-                bill_info_web_page_contents=bill_info_web_page_contents
-            )
-            f = open(f"completions/bill_enrichment/{bill_title.replace(' ', '_')}.txt", "w")
-            f.write(completion)
+    parser = argparse.ArgumentParser(description="Run AI tasks for the project")
+    parser.add_argument(
+        "--task",
+        choices=["bill_enrichment"],
+        default="bill_enrichment",
+        help="The AI task to run (only 'bill_enrichment' is supported currently)",
+    )
+    parser.add_argument(
+        "--input_data_start_idx",
+        type=int,
+        default=0,
+        help="Start index (inclusive) into the input data (default: 0)",
+    )
+    parser.add_argument(
+        "--input_data_end_idx",
+        type=int,
+        default=None,
+        help="End index (exclusive) into the input data. Omit for the end of the data.",
+    )
+    parser.add_argument(
+        "--sleep_between_calls",
+        type=int,
+        default=20,
+        help="Seconds to sleep between API calls (default: 30)",
+    )
 
-            time.sleep(60)  # Avoid rate limiting
-            
+    args = parser.parse_args()
 
-
+    if args.task == "bill_enrichment":
+        run_bill_enrichment(
+            input_data_start_idx=args.input_data_start_idx,
+            input_data_end_idx=args.input_data_end_idx,
+            sleep_between_calls=args.sleep_between_calls,
+        )
 
 
 if __name__ == "__main__":
