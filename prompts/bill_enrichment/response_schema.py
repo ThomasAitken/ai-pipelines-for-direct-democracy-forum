@@ -39,7 +39,7 @@ class EnrichedBill(BaseModel):
     high_level_summary: str = Field(
         description="A high-level summary of the bill. Add any relevant context or background in an optional second paragraph.",
     )
-    detail_summary: str = Field(
+    detailed_summary: str = Field(
         description="A detailed summary of the bill, covering the key aspects, provisions, and implications. Include appropriate quotes from the explanatory memo or bill digest. Limit to 300 words.",
     )
     argument_for: str = Field(

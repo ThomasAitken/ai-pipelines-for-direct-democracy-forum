@@ -2,7 +2,9 @@ import argparse
 import csv
 import logging
 import time
+from pathlib import Path
 from typing import Iterator
+from urllib.parse import urlsplit, urlunsplit
 
 import requests
 from requests.adapters import HTTPAdapter, Retry
@@ -11,6 +13,9 @@ from client import AIClient, MODEL_NAME
 from prompts.bill_enrichment import EnrichedBill, prompt as bill_enrichment_prompt
 
 logger = logging.getLogger(__name__)
+DEFAULT_CONNECT_TIMEOUT_SECONDS = 10
+DEFAULT_READ_TIMEOUT_SECONDS = 60
+REQUEST_TIMEOUT = (DEFAULT_CONNECT_TIMEOUT_SECONDS, DEFAULT_READ_TIMEOUT_SECONDS)
 
 retries = Retry(
     total=5,
@@ -26,6 +31,42 @@ session.headers.update(
 )
 adapter = HTTPAdapter(max_retries=retries)
 session.mount("https://", adapter)
+
+
+def fetch_pdf(pdf_url: str) -> bytes | None:
+    normalized_url = strip_url_fragment(pdf_url)
+    started_at = time.monotonic()
+    try:
+        response = session.get(normalized_url, timeout=REQUEST_TIMEOUT)
+        response.raise_for_status()
+    except requests.Timeout:
+        elapsed = time.monotonic() - started_at
+        logger.error(
+            "Timed out fetching PDF after %.2fs: %s (connect=%ss, read=%ss)",
+            elapsed,
+            normalized_url,
+            DEFAULT_CONNECT_TIMEOUT_SECONDS,
+            DEFAULT_READ_TIMEOUT_SECONDS,
+        )
+        return None
+    except requests.RequestException as exc:
+        elapsed = time.monotonic() - started_at
+        logger.error("Failed to fetch PDF after %.2fs: %s (%s)", elapsed, normalized_url, exc)
+        return None
+
+    elapsed = time.monotonic() - started_at
+    logger.info(
+        "Fetched PDF in %.2fs: %s (%s bytes)",
+        elapsed,
+        normalized_url,
+        len(response.content),
+    )
+    return response.content
+
+
+def strip_url_fragment(url: str) -> str:
+    split_url = urlsplit(url)
+    return urlunsplit(split_url._replace(fragment=""))
 
 
 def run_bill_enrichment(
@@ -49,17 +90,21 @@ def run_bill_enrichment(
             bill_title = row["title"]
             explanatory_memo_pdf_url=row["explanatory_memo_pdf_url"]
             bill_digest_pdf_url=row["bill_digest_pdf_url"]
-            memo_resp = session.get(explanatory_memo_pdf_url)
-            if memo_resp.status_code != 200:
-                logger.error(f"Failed to fetch explanatory memo for bill '{bill_title}': HTTP {memo_resp.status_code}")
+            logger.info("Processing bill '%s'", bill_title)
+            logger.debug("Explanatory memo PDF URL: %s", explanatory_memo_pdf_url)
+            logger.debug("Bill digest PDF URL: %s", bill_digest_pdf_url)
+            memo_pdf = fetch_pdf(explanatory_memo_pdf_url)
+            if memo_pdf is None:
+                logger.error("Failed to fetch explanatory memo for bill '%s'", bill_title)
                 continue
-            pdfs = [memo_resp.content]
+            logger.info("Fetched explanatory memo for bill '%s'", bill_title)
+            pdfs = [memo_pdf]
             if bill_digest_pdf_url != "None":
-                digest_resp = session.get(bill_digest_pdf_url)
-                if digest_resp.status_code != 200:
-                    logger.warning(f"Failed to fetch bill digest for bill '{bill_title}': HTTP {digest_resp.status_code}")
+                digest_pdf = fetch_pdf(bill_digest_pdf_url)
+                if digest_pdf is None:
+                    logger.warning("Failed to fetch bill digest for bill '%s'", bill_title)
                     continue
-                pdfs.append(digest_resp.content)
+                pdfs.append(digest_pdf)
 
             completion = client.generate_content(
                 prompt=bill_enrichment_prompt,
@@ -67,14 +112,19 @@ def run_bill_enrichment(
                 response_schema=EnrichedBill.model_json_schema(),
                 use_url_context=True,
             )
-            with open(f"completions/bill_enrichment/{MODEL_NAME}/{bill_title.replace(' ', '_')}.txt", "w") as f:
+            output_dir = Path("completions") / "bill_enrichment" / MODEL_NAME
+            output_dir.mkdir(parents=True, exist_ok=True)
+            output_path = output_dir / f"{bill_title.replace(' ', '_')}.json"
+            with output_path.open("w") as f:
                 f.write(completion)
+            logger.info("Wrote completion for bill '%s' to %s", bill_title, output_path)
 
             if idx < len(slice_rows) - 1:
                 time.sleep(sleep_between_calls)  # Avoid rate limiting
 
 
 def main():
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     parser = argparse.ArgumentParser(description="Run AI tasks for the project")
     parser.add_argument(
         "--task",

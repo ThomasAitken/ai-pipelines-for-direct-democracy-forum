@@ -1,11 +1,14 @@
+import logging
 from typing import Any
+
 from config import settings
 
 from google import genai
 from google.genai.types import GenerateContentConfig, Part, ToolListUnion
 
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3-flash-preview"
+logger = logging.getLogger(__name__)
 
 class AIClient:
     """
@@ -22,8 +25,8 @@ class AIClient:
         Send the context (all relevant texts) and instructions to the LLM.
         Returns the model's output.
         """
-        f = open("last_prompt.txt", "w")
-        f.write(prompt)
+        with open("last_prompt.txt", "w") as f:
+            f.write(prompt)
 
         tools: ToolListUnion = [] # pyright: ignore[reportUnknownVariableType]
         if use_url_context:
@@ -32,6 +35,7 @@ class AIClient:
                 {"url_context": {}},
             ]
 
+        logger.info("Sending request to model '%s'", MODEL_NAME)
         response = self.client.models.generate_content( # pyright: ignore[reportUnknownMemberType]
             model=MODEL_NAME,
             contents=[
@@ -40,15 +44,12 @@ class AIClient:
             ],
             config=GenerateContentConfig(
                 tools=tools,
-                # For some reason, using response_mime_type in conjunction with tools causes a 400 response
-                # See forum: https://discuss.ai.google.dev/t/why-is-using-a-response-schema-not-supported-when-using-grounded-search/92327/20
-                # response_mime_type="application/json",
+                response_mime_type="application/json",
                 response_json_schema=response_schema,
             ),
         )
 
         if not response.text:
-            # Print out the full response for debugging
-            print("Full response:", response)
+            logger.error("No text in model response: %s", response)
             raise ValueError("No text in response from model")
         return response.text

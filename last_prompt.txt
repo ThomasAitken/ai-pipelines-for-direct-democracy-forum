@@ -32,6 +32,8 @@ Each bill before the Australian parliament has an associated explanatory memo an
 
 For the "Detailed Summary" field and/or the argument fields, you may want to quote from the explanatory memo or bill digest associated with the bill. If you do so, please make sure to attribute and represent them as quotes, e.g. `From the explanatory memo: <blockquote>...</blockquote>`.
 
+Paraphrasing can also be appropriate, in which case you can append something like "[Explanatory Memo page 10]" to the end of the sentence. Just don't cite the source as "OCR" (something I have seen in test outputs).
+
 ## Response Format
 Respond with a JSON object with the following schema:
 ```
